@@ -1,0 +1,23 @@
+export const SITE = {
+  website: "https://eduuk.org/",
+  author: "Study in UK Editorial Team",
+  profile: "https://eduuk.org/about/",
+  desc: "Study in UK is a practical knowledge base for international students planning to study in the United Kingdom. Covering UK universities, courses, visas, accommodation, and student life — grounded in official UKVI, UCAS, and HESA data.",
+  title: "Study in UK",
+  ogImage: "og.png",
+  lightAndDarkMode: true,
+  postPerIndex: 8,
+  postPerPage: 12,
+  scheduledPostMargin: 15 * 60 * 1000,
+  showArchives: true,
+  showBackButton: true,
+  editPost: {
+    enabled: false,
+    text: "",
+    url: "",
+  },
+  dynamicOgImage: true,
+  dir: "ltr",
+  lang: "en",
+  timezone: "Europe/London",
+} as const;

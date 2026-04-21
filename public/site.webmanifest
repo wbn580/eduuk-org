@@ -1,0 +1,13 @@
+{
+  "name": "Study in UK",
+  "short_name": "EduUK",
+  "description": "UK study knowledge base — universities, courses, visa, accommodation, life",
+  "icons": [
+    {"src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ],
+  "theme_color": "#1e3a8a",
+  "background_color": "#f8fafc",
+  "display": "browser",
+  "start_url": "/",
+  "lang": "en"
+}

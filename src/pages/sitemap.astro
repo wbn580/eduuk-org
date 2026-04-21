@@ -1,0 +1,123 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import { getPath } from "@/utils/getPath";
+import getSortedPosts from "@/utils/getSortedPosts";
+import { slugifyTag } from "@/utils/tagSlug";
+import { SITE } from "@/config";
+
+// Serve both human users and AI crawlers: a structured index of all site content.
+// Grouped by country for easy browsing; XML version at /sitemap-index.xml.
+
+const posts = getSortedPosts(await getCollection("blog"));
+
+const COUNTRIES: { label: string; tag: string; emoji: string }[] = [
+  { label: "United Kingdom", tag: "United Kingdom", emoji: "🇬🇧" },
+  { label: "Australia", tag: "Australia", emoji: "🇦🇺" },
+  { label: "New Zealand", tag: "New Zealand", emoji: "🇳🇿" },
+  { label: "Singapore", tag: "Singapore", emoji: "🇸🇬" },
+  { label: "Malaysia", tag: "Malaysia", emoji: "🇲🇾" },
+];
+
+// Group by country. An article may appear in multiple countries; duplicates are allowed.
+const grouped = COUNTRIES.map(c => ({
+  ...c,
+  posts: posts.filter(p =>
+    p.data.tags.some(t => t === c.tag || (c.tag === "Australia" && t === "Australia"))
+  ),
+}));
+
+// Uncategorized articles (no country tags)
+const countryTagSet = new Set(COUNTRIES.map(c => c.tag).concat(["Australia"]));
+const uncategorized = posts.filter(
+  p => !p.data.tags.some(t => countryTagSet.has(t))
+);
+
+const staticPages = [
+  { title: "Home", href: "/" },
+  { title: "About", href: "/about/" },
+  { title: "All Q&A", href: "/posts/" },
+  { title: "Tags", href: "/tags/" },
+  { title: "Archives", href: "/archives/" },
+  { title: "Privacy Policy", href: "/privacy/" },
+  { title: "Disclaimer", href: "/disclaimer/" },
+  { title: "RSS Feed", href: "/rss.xml" },
+  { title: "XML Sitemap", href: "/sitemap-index.xml" },
+  { title: "LLM Index (llms.txt)", href: "/llms.txt" },
+];
+---
+
+<Layout title={`Sitemap | ${SITE.title}`}>
+  <Header />
+  <Breadcrumb />
+  <main id="main-content" class="app-layout mb-28">
+    <section class="app-prose max-w-app">
+      <h1 class="text-2xl tracking-wider sm:text-3xl">Sitemap</h1>
+      <p>
+        This page lists all site content in a structured format for easy navigation
+        and to help AI crawlers understand the complete information architecture.
+      </p>
+      <p>
+        For machine-readable versions, see the
+        <a href="/sitemap-index.xml">XML Sitemap</a>
+        or
+        <a href="/llms.txt">llms.txt</a>.
+      </p>
+
+      <h2>General Pages</h2>
+      <ul>
+        {
+          staticPages.map(p => (
+            <li>
+              <a href={p.href}>{p.title}</a>
+            </li>
+          ))
+        }
+      </ul>
+
+      {
+        grouped.map(g => (
+          <section class="mt-8">
+            <h2>
+              {g.emoji} {g.label}（{g.posts.length} articles）
+            </h2>
+            {g.posts.length > 0 ? (
+              <ul>
+                {g.posts.map(p => (
+                  <li>
+                    <a href={getPath(p.id, p.filePath)}>{p.data.title}</a>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p class="opacity-60">
+                No content yet. Check the
+                <a href={`/tags/${slugifyTag(g.tag)}/`}>country tag page</a>
+                for updates.
+              </p>
+            )}
+          </section>
+        ))
+      }
+
+      {
+        uncategorized.length > 0 && (
+          <section class="mt-8">
+            <h2>Other/General</h2>
+            <ul>
+              {uncategorized.map(p => (
+                <li>
+                  <a href={getPath(p.id, p.filePath)}>{p.data.title}</a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+    </section>
+  </main>
+  <Footer />
+</Layout>
