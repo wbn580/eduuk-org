@@ -1,11 +1,7 @@
 # deploy.ps1 - One-click initial push for eduuk-org to GitHub
-# Double-click this file (or right-click -> Run with PowerShell) to commit and push.
-# IMPORTANT: The $RemoteUrl below will be filled in after the GitHub repo is created.
 
-$ErrorActionPreference = "Stop"
 Set-Location -Path $PSScriptRoot
 
-# === FILL THIS IN AFTER CREATING THE GITHUB REPO ===
 $RemoteUrl = "https://github.com/wbn580/eduuk-org.git"
 
 Write-Host "=== Study in UK (eduuk.org) - Initial Deploy ===" -ForegroundColor Cyan
@@ -16,7 +12,7 @@ Write-Host ""
 # 1. Initialize git repo if not already
 if (-not (Test-Path ".git")) {
     Write-Host "[1/6] Initializing git repository..." -ForegroundColor Yellow
-    git init
+    git init | Out-Null
 } else {
     Write-Host "[1/6] Git repository already initialized." -ForegroundColor Gray
 }
@@ -25,30 +21,46 @@ if (-not (Test-Path ".git")) {
 Write-Host "[2/6] Staging all files..." -ForegroundColor Yellow
 git add .
 
-# 3. Commit
-Write-Host "[3/6] Creating initial commit..." -ForegroundColor Yellow
+# 3. Commit (only if anything staged)
+Write-Host "[3/6] Creating commit if needed..." -ForegroundColor Yellow
 $commitMsg = "Initial commit: Study in UK - 100 Q&A articles + Astro template"
-git diff --cached --quiet
-if ($LASTEXITCODE -ne 0) {
+$staged = git diff --cached --name-only
+if ($staged) {
     git commit -m $commitMsg
 } else {
-    Write-Host "    (nothing to commit)" -ForegroundColor Gray
+    Write-Host "    (nothing to commit - commit already exists)" -ForegroundColor Gray
 }
 
 # 4. Ensure main branch
 Write-Host "[4/6] Setting branch to 'main'..." -ForegroundColor Yellow
-git branch -M main
+git branch -M main 2>&1 | Out-Host
 
-# 5. Set remote
+# 5. Set remote (swallow errors from missing origin)
 Write-Host "[5/6] Configuring remote 'origin'..." -ForegroundColor Yellow
-git remote remove origin 2>$null
-git remote add origin $RemoteUrl
+$remotes = git remote
+if ($remotes -contains "origin") {
+    git remote set-url origin $RemoteUrl
+} else {
+    git remote add origin $RemoteUrl
+}
+git remote -v
 
 # 6. Push
+Write-Host ""
 Write-Host "[6/6] Pushing to GitHub..." -ForegroundColor Yellow
+Write-Host "(If a browser window opens asking you to sign in to GitHub, please complete it.)" -ForegroundColor Gray
 git push -u origin main
 
+if ($LASTEXITCODE -eq 0) {
+    Write-Host ""
+    Write-Host "=== DONE ===" -ForegroundColor Green
+    Write-Host "Your code is now on GitHub: $RemoteUrl" -ForegroundColor Green
+} else {
+    Write-Host ""
+    Write-Host "=== PUSH FAILED (exit code $LASTEXITCODE) ===" -ForegroundColor Red
+    Write-Host "Scroll up to read the error. Most common cause: GitHub auth cancelled." -ForegroundColor Red
+}
+
 Write-Host ""
-Write-Host "=== DONE ===" -ForegroundColor Green
-Write-Host "Your code is now on GitHub. Cloudflare Pages will auto-build and deploy." -ForegroundColor Green
-Pause
+Write-Host "Press any key to close this window..."
+$Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown") | Out-Null
