@@ -1,6 +1,6 @@
 export const SITE = {
   website: "https://eduuk.org/",
-  author: "Study in UK Editorial Team",
+  author: "Eleanor Whitfield",
   profile: "https://eduuk.org/about/",
   desc: "Study in UK is a practical knowledge base for international students planning to study in the United Kingdom. Covering UK universities, courses, visas, accommodation, and student life — grounded in official UKVI, UCAS, and HESA data.",
   title: "Study in UK",
