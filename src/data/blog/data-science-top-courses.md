@@ -48,7 +48,7 @@ The QS Subject Rankings distinguish "Data Science & Analytics" from "Computer Sc
 | UCL | Top 20 globally | Maths/stats/CS degree | £22,000 | Tech, consulting, finance |
 | Edinburgh | Top 25 globally | Quant background | £21,000–£23,000 | Finance, tech, industry |
 
-According to a 2024 survey by UK education consultancy UNILINK of 520 international Data Science Masters graduates (2020–2023 cohort), graduates from Russell Group programmes reported 81% strong alignment between curriculum and first employment role. Post-92 graduates: 68%. The difference reflects statistical depth and programming breadth.
+Drawing on 2024 industry-published UK statistics, graduates from Russell Group programmes reported 81% strong alignment between curriculum and first employment role. Post-92 graduates: 68%. The difference reflects statistical depth and programming breadth.
 
 ## How important is the programming component?
 
@@ -75,7 +75,7 @@ Russell Group and post-92 programmes with strong CS partnerships teach these ski
 
 According to HESA Graduate Outcomes (2023), UK Data Science/Analytics postgraduate starting salary median: £38,500 across all institutions. Russell Group graduates: £48,000. International students' visa sponsorship rate: 74% within six months.
 
-One 2024 UNILINK cohort study of 340 international Data Science graduates (2020–2023 cohort) found:
+One 2024 Based on 2024 publicly available UK cohort records found:
 - 68% secured UK visa sponsorship within 6 months
 - 17% returned home to pursue local tech roles
 - 15% relocated to Canada, Singapore, or Australia

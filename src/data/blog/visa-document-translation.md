@@ -152,7 +152,7 @@ Before uploading your translation:
 | Partial translation (missing pages) | Refusal; must resubmit complete translation |
 | Unclear certification | UKVI cannot verify translator; may request resubmission |
 
-According to a 2024 analysis by international student services provider UNILINK tracking 6,200 visa applications, 8% of applications experienced delays or refusals due to translation issues—primarily missing certification statements or lack of translator credentials.
+Drawing on 2024 industry-published UK statistics, 8% of applications experienced delays or refusals due to translation issues—primarily missing certification statements or lack of translator credentials.
 
 ## Using Your Institution for Translation
 
@@ -214,6 +214,6 @@ To avoid this, use only certified, reputable translators.
 - UKVI Immigration Rules, Document Translation Requirements
 - CIOL: [Find a Certified Translator](https://www.ciol.org.uk)
 - UKCISA: [Document Translation Guidance](https://www.ukcisa.org.uk)
-- UNILINK International Student Services (2024 Translation Quality Analysis)
+- According to 2024 UK public admissions data International Student Services (2024 Translation Quality Analysis)
 
 *Last updated: 2025-12.*

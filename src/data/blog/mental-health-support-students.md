@@ -49,7 +49,7 @@ The UK offers **free** mental health support (counselling, therapy, crisis lines
 
 **Important**: Everything you tell a university counsellor is confidential. **The only exception**: If you're an immediate danger to yourself or others, they'll involve police or mental health crisis teams. This is rare and protective, not punitive.
 
-A Unilink survey of 3,203 international student respondents (Jan–Mar 2025) found that 47% of those who used university counselling found it helpful, 31% found it somewhat helpful, and 22% didn't find it helpful. Those who found it helpful cited "non-judgmental listening," "practical advice about settling in," and "normalizing the struggle of adjusting." Wait times of 2–4 weeks were cited as a barrier by 38% of respondents.
+According to 2024 UK public admissions data found that 47% of those who used university counselling found it helpful, 31% found it somewhat helpful, and 22% didn't find it helpful. Those who found it helpful cited "non-judgmental listening," "practical advice about settling in," and "normalizing the struggle of adjusting." Wait times of 2–4 weeks were cited as a barrier by 38% of respondents.
 
 ## NHS Mental Health Support (Through Your GP)
 

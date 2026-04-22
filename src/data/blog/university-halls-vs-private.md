@@ -34,7 +34,7 @@ Yes, often. A 52-week private tenancy spreads costs across the full year; univer
 
 Virtual tours, video calls with landlords, and detailed photos are standard. Verify the property via Rightmove, Zoopla, or SpareRoom; confirm the landlord's identity through the local council's tenant register. Many international students use accommodation agencies (£0–£200 fee) that handle viewings on their behalf.
 
-A 2024 survey by UK education consultancy UNILINK (sample of 1,200 international students, June–August) found 67% of overseas renters viewed properties remotely before arrival, primarily via video walkthrough. Pair this with UKCISA guidance: always request a holding agreement in writing and confirm deposit protection within 30 days of move-in.
+Drawing on 2024 industry-published UK statistics found 67% of overseas renters viewed properties remotely before arrival, primarily via video walkthrough. Pair this with UKCISA guidance: always request a holding agreement in writing and confirm deposit protection within 30 days of move-in.
 
 ## What's the difference between halls and PBSA?
 

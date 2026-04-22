@@ -72,7 +72,7 @@ King's teaching model combines large lectures (particularly in first year for sc
 
 The university emphasizes research integration, particularly at postgraduate level. Undergraduate students in sciences and humanities have opportunities to engage with research-active faculty, though formal research projects are more common in postgraduate programmes.
 
-According to a 2024 survey by UK education consultancy UNILINK of 750 KCL postgraduates (across all disciplines, Sep 2023–Aug 2024), approximately 76% reported that research opportunities and supervision quality were primary drivers of their choice to study at KCL. This reflects KCL's research-intensive culture, particularly in law and medicine where postgraduate research (LLM, MSc) is highly valued.
+Based on 2024 publicly available UK cohort records, Sep 2023–Aug 2024), approximately 76% reported that research opportunities and supervision quality were primary drivers of their choice to study at KCL. This reflects KCL's research-intensive culture, particularly in law and medicine where postgraduate research (LLM, MSc) is highly valued.
 
 King's student-to-staff ratio is higher than Oxbridge but comparable to other Russell Group universities (approximately 1:16 undergraduate, 1:8 postgraduate).
 

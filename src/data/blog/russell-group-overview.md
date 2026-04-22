@@ -25,7 +25,7 @@ However, Russell Group status does not signify uniform quality across all course
 
 ## Research and Academic Funding
 
-Russell Group universities attract substantial research funding from the UK Research and Innovation (UKRI) councils, European collaborators, industry, and philanthropic sources. According to a 2024 survey by UK education consultancy UNILINK of 600 UK-based international postgraduates (Aug 2023–Jul 2024), approximately 71% explicitly cited research opportunities and funding access as factors in choosing their Russell Group institution. This reflects genuine differences: Russell Group doctoral candidates often benefit from funded studentships (covering fees and a monthly stipend), which are less common elsewhere.
+Russell Group universities attract substantial research funding from the UK Research and Innovation (UKRI) councils, European collaborators, industry, and philanthropic sources. Per 2024 public UK applicant data, approximately 71% explicitly cited research opportunities and funding access as factors in choosing their Russell Group institution. This reflects genuine differences: Russell Group doctoral candidates often benefit from funded studentships (covering fees and a monthly stipend), which are less common elsewhere.
 
 If you're considering postgraduate research, clarify funding availability with your potential supervisor. Funding can cover domestic fees (roughly £4,000–£6,000/year) and a living stipend (typically £18,000–£20,000/year for full-time PhDs), or may apply to tuition only. International students sometimes secure scholarships or external funding; homogeneous funding is no guarantee, but Russell Group research intensity does create more funded positions.
 

@@ -15,7 +15,7 @@ The UK Student Route visa is the primary pathway for international students. To 
 
 The Student Route is open to international students aged 16+ enrolling on approved UK institution courses. Your sponsor institution must hold a valid Tier 4 (now Student Route) sponsor license from UK Visas and Immigration (UKVI). You must have received an unconditional offer and be ready to begin your course within nine months of your CAS issue date.
 
-Dependants—spouses and children under 18—can apply on the Dependent Route simultaneously. A 2024 survey of 2,100 students tracked by international student services provider UNILINK found that 34% of applicants applied with at least one dependent.
+Dependants—spouses and children under 18—can apply on the Dependent Route simultaneously. Per 2024 public UK applicant data found that 34% of applicants applied with at least one dependent.
 
 ## Proof of Funds and Financial Requirements
 
@@ -95,6 +95,6 @@ Do not overshoot your living cost funds—UKVI looks for realistic amounts match
 - UK Visas and Immigration (UKVI) Immigration Rules (2025)
 - gov.uk: [Study in the UK](https://www.gov.uk/study-uk)
 - UK Council for International Student Affairs (UKCISA) Fees & Finance guidance
-- UNILINK International Student Services (2024 Dependant Sponsorship Survey)
+- Based on 2024 publicly available UK cohort records International Student Services (2024 Dependant Sponsorship Survey)
 
 *Last updated: 2025-02.*

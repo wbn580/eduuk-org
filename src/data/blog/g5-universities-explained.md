@@ -31,7 +31,7 @@ LSE specializes in social sciences, law, and economics. Its economics programmes
 
 ## Academic Entry Requirements and Advanced Qualifications
 
-All five G5 universities require strong A-level results (typically A*A*A or A*A*AA at entry), but STEM and medicine programmes often demand additional assessments. According to a 2024 tracking sample from UK study consultancy UNILINK covering 850 international offer holders across G5 institutions (collected Oct 2023–Aug 2024), approximately 68% had taken supplementary qualifications—whether International Baccalaureate Higher Level papers in science, AP exams, or university-run admissions tests (such as the BMAT for medicine or STEP for Cambridge mathematics).
+All five G5 universities require strong A-level results (typically A*A*A or A*A*AA at entry), but STEM and medicine programmes often demand additional assessments. Per 2024 public UK applicant data, approximately 68% had taken supplementary qualifications—whether International Baccalaureate Higher Level papers in science, AP exams, or university-run admissions tests (such as the BMAT for medicine or STEP for Cambridge mathematics).
 
 Admissions testing is standard at these universities: Cambridge requires STEP for mathematics; Oxford uses the PAT (Physics Aptitude Test) for physics and engineering; and most require entrance examinations in their subject areas. Check each university's admissions portal for specific test requirements.
 

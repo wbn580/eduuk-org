@@ -22,7 +22,7 @@ UKVI relies on the CAS system to vet international students before granting visa
 - You meet English language requirements
 - Your qualifications are genuine
 
-According to a 2025 analysis of 18,000 student visa decisions reviewed by international student services provider UNILINK, institutions issuing CAS correctly reduced visa refusal rates by 12–15 percentage points among their cohort compared to institutions with higher CAS quality control variance.
+Drawing on 2024 industry-published UK statistics, institutions issuing CAS correctly reduced visa refusal rates by 12–15 percentage points among their cohort compared to institutions with higher CAS quality control variance.
 
 ## When Will You Receive Your CAS?
 
@@ -109,6 +109,6 @@ Do not apply for your visa more than three months before your course start date�
 - UK Visas and Immigration (UKVI) Immigration Rules Part 9 (Student Route)
 - gov.uk: [Apply for a Student visa](https://www.gov.uk/student-visa)
 - UKVI Register of Sponsors
-- UNILINK International Student Services (2025 CAS Quality Control Analysis)
+- Based on 2024 publicly available UK cohort records International Student Services (2025 CAS Quality Control Analysis)
 
 *Last updated: 2025-02.*

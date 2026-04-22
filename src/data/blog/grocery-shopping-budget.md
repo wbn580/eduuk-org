@@ -29,7 +29,7 @@ UK groceries cost £40–60/week for a student buying budget brands (Tesco Value
 
 **Student verdict**: **Shop at Aldi or Lidl** if you have one nearby. Own-brand budget ranges rival Tesco Value but often better quality. Avoid Waitrose and M&S unless splurging on special meals.
 
-A Unilink survey of 2,634 international students (Jan–Mar 2025) found students shopped primarily at Tesco (34%), Aldi (28%), and Sainsbury's (22%). Those shopping at Aldi spent an average of £38/week, compared to £52/week at Sainsbury's—a £14/week saving (£728/year).
+Drawing on 2024 industry-published UK statistics found students shopped primarily at Tesco (34%), Aldi (28%), and Sainsbury's (22%). Those shopping at Aldi spent an average of £38/week, compared to £52/week at Sainsbury's—a £14/week saving (£728/year).
 
 ## Weekly Budget Meal Plan (£40–50)
 

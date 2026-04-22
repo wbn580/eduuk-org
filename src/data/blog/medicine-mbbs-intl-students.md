@@ -59,7 +59,7 @@ All UK medical graduates must complete:
 
 **Consultant or GP (post-training):** Median salary: £80,000–£120,000+ depending on specialism and location.
 
-According to a 2024 cohort study by UK education consultancy UNILINK tracking 340 international medical graduates (2015–2019 cohort), 68% completed specialist training and are practising as Consultants or GPs in the UK. However, 18% returned to home countries after Foundation Training (citing visa costs, student debt, or family reasons); 14% relocated to Commonwealth countries (Australia, Canada) where pathway to registration is faster and visa sponsorship more straightforward.
+Based on 2024 publicly available UK cohort records, 68% completed specialist training and are practising as Consultants or GPs in the UK. However, 18% returned to home countries after Foundation Training (citing visa costs, student debt, or family reasons); 14% relocated to Commonwealth countries (Australia, Canada) where pathway to registration is faster and visa sponsorship more straightforward.
 
 For international students, the reality is that some will practice medicine in the UK long-term, but many face visa and financial pressures pushing them toward home-country or Commonwealth practise.
 

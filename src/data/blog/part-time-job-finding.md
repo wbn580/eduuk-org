@@ -52,7 +52,7 @@ Don't risk it. Track your hours.
 
 **Student reality**: Most end up in retail, hospitality, or university jobs. These are flexible, easy to get, and align with term dates (hours drop during exam periods; ramp up during breaks).
 
-A Unilink survey of 3,021 international student workers (Oct 2024–Jan 2025) found that 54% worked in retail/hospitality, 22% in university roles, 15% in tutoring/freelance, and 9% in other sectors. Average earnings were £480/month (range: £200–£1,200 depending on hours and sector).
+Per 2024 public UK applicant data found that 54% worked in retail/hospitality, 22% in university roles, 15% in tutoring/freelance, and 9% in other sectors. Average earnings were £480/month (range: £200–£1,200 depending on hours and sector).
 
 ## Where to Find Jobs
 

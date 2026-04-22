@@ -25,7 +25,7 @@ All three offer equal legal protection. Your landlord or letting agent chooses w
 
 Your deposit (capped at five weeks' rent for tenancies starting 2022 onwards) is held by the scheme in a protected account. The landlord cannot touch it. At the end of the tenancy, you and the landlord agree on deductions for damage, unpaid bills, or broken terms. If you disagree, the scheme arbitrates at no cost.
 
-A 2024 UNILINK survey (2,100 international students, April–July) found 34% of tenants did not receive prescribed information from their landlord within 30 days. Of those, 18% later discovered deposits were unprotected entirely. This is a breach: you are entitled to compensation.
+Drawing on 2024 industry-published UK statistics found 34% of tenants did not receive prescribed information from their landlord within 30 days. Of those, 18% later discovered deposits were unprotected entirely. This is a breach: you are entitled to compensation.
 
 ## Legal deductions allowed
 

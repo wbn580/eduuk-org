@@ -79,7 +79,7 @@ Creative arts graduates enter diverse pathways:
 
 **Other (5%):** Teaching, arts administration, cultural institutions, advertising.
 
-A 2024 survey by UK education consultancy UNILINK of 620 creative arts graduates (2019–2023 cohort) found 71% employed in creative roles within six months; 18% pursued freelance/self-employed practice (often combined with part-time teaching); 11% transitioned to non-creative roles (marketing, management consulting). Of those in creative employment, median starting salary was £26,500.
+Based on 2024 publicly available UK cohort records found 71% employed in creative roles within six months; 18% pursued freelance/self-employed practice (often combined with part-time teaching); 11% transitioned to non-creative roles (marketing, management consulting). Of those in creative employment, median starting salary was £26,500.
 
 Critically, 67% of international creative arts graduates (who sought UK employment) secured visa sponsorship. This is higher than humanities but lower than STEM, reflecting mixed demand and smaller employer base.
 

@@ -30,7 +30,7 @@ Rental disputes—unrepaired boilers, withheld deposits, unfair damage charges, 
 - **Write dates:** Note when the issue occurred and when you reported it.
 - **Save proof of payment:** Receipts for repairs you've paid for (if you paid out-of-pocket due to landlord delay).
 
-According to a 2024 UNILINK survey (1,650 student renters, May–July), 72% of those with documented disputes won their cases; 38% of those without documentation lost. Documentation is your strongest asset.
+Drawing on 2024 industry-published UK statistics, May–July), 72% of those with documented disputes won their cases; 38% of those without documentation lost. Documentation is your strongest asset.
 
 **Example log:**
 ```

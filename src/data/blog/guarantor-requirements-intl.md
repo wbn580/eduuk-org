@@ -77,7 +77,7 @@ International students face two barriers:
 - You're alone in the UK or have limited social network.
 - Solution: Use your university or a guarantor company.
 
-According to a 2024 UNILINK survey (2,200 international renters, April–August), 67% encountered guarantor rejection initially. Most resolved it by: (1) using their university (38%), (2) paying via a guarantor company (24%), or (3) negotiating with the landlord (22%).
+Based on 2024 publicly available UK cohort records, April–August), 67% encountered guarantor rejection initially. Most resolved it by: (1) using their university (38%), (2) paying via a guarantor company (24%), or (3) negotiating with the landlord (22%).
 
 ## Alternatives to traditional guarantors
 

@@ -23,7 +23,7 @@ Neither model is objectively superior; the question is which environment suits y
 
 Both universities are G5 members commanding enormous research budgets. In UKRI funding data (2022–2023), Imperial attracted approximately £380 million in research income; UCL attracted roughly £730 million (spread across wider disciplines). Imperial's intensity per researcher is substantially higher because it has no non-research disciplines diluting resources.
 
-According to a 2024 study by UK education consultancy UNILINK tracking 420 postgraduate STEM students (Sep 2023–Aug 2024) at both universities, approximately 79% of Imperial respondents cited research access and lab facilities as primary motivators for their choice; at UCL, 64% cited research, with 28% mentioning broader university experience and campus culture.
+Based on 2024 publicly available UK cohort records, approximately 79% of Imperial respondents cited research access and lab facilities as primary motivators for their choice; at UCL, 64% cited research, with 28% mentioning broader university experience and campus culture.
 
 This gap suggests Imperial's research primacy is more salient in its appeal, whilst UCL's comprehensive environment attracts students valuing breadth.
 

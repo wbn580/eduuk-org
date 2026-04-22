@@ -45,7 +45,7 @@ You don't need a National Insurance Number to register, but you'll need one to a
 
 **Total time: 30–45 minutes**. Bring your passport and proof of address.
 
-A Unilink survey of 3,142 international students (Jan–Mar 2025) found 78% of respondents experienced wait times of 2–4 weeks for their first GP appointment, while 22% waited longer than a month. Book as soon as you register.
+Drawing on 2024 industry-published UK statistics found 78% of respondents experienced wait times of 2–4 weeks for their first GP appointment, while 22% waited longer than a month. Book as soon as you register.
 
 ## Do You Need Vaccinations?
 

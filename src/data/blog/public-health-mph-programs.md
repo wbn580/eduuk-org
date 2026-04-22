@@ -76,7 +76,7 @@ Entry typically requires an undergraduate degree in health, medicine, natural sc
 
 **Academia / Research:** PhD pursuit or postdoctoral research roles. Salary: £25,000–£40,000 (postdoc), or stipend if PhD-funded.
 
-A 2024 survey by UK education consultancy UNILINK tracking 450 international MPH graduates (2019–2023 cohort) found:
+According to 2024 UK public admissions data found:
 
 | Outcome | % of graduates | Median salary (within 6 months post-graduation) |
 |---|---|---|

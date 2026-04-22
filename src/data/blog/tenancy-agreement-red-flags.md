@@ -33,7 +33,7 @@ A term is "unfair" if it creates an imbalance favoring the landlord and isn't tr
 - **"Quiet enjoyment" restrictions:** Clause forbidding overnight guests or limiting occupancy unreasonably (e.g., "no more than 2 visitors per week") is unenforceable. Negotiate to reasonable limits (e.g., no permanent additional residents).
 - **Blanket cleaning charges:** "Tenant pays £200 final cleaning regardless of condition" is unfair. Cleaning is deducted only if needed.
 
-According to a 2024 UNILINK analysis (340 tenancy agreements reviewed, February–May), 41% contained at least one term likely to be ruled unfair by a court. The most common: excessive break clause penalties (£400–£800, vs. £100–£200 justified loss) and vague repair liability.
+Drawing on 2024 industry-published UK statistics, February–May), 41% contained at least one term likely to be ruled unfair by a court. The most common: excessive break clause penalties (£400–£800, vs. £100–£200 justified loss) and vague repair liability.
 
 ## What you can do if you've signed a problematic clause
 

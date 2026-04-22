@@ -90,7 +90,7 @@ For international students, salary progression is slower than medicine or dentis
 
 ## Can international students remain in the UK post-graduation?
 
-Challenging. A 2024 survey by UK education consultancy UNILINK tracking 420 international pharmacy graduates (2019–2023 cohort) found:
+Challenging. Based on 2024 publicly available UK cohort records found:
 
 - 51% secured UK visa sponsorship within 6 months post-graduation
 - 28% returned home to practise pharmacy

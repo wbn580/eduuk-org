@@ -50,7 +50,7 @@ British culture prioritizes politeness, understatement, and self-deprecation. Br
 
 **Why it matters**: Brits see themselves as orderly, polite, and rule-following. Breaking queue etiquette is seen as indicative of disorder or rudeness. Even if you're in a hurry, queue patiently and silently.
 
-A Unilink survey of 2,156 UK-based international student respondents (Feb–Apr 2025) found that 73% had not understood British queue culture initially and felt frustrated with the slowness. After experiencing it, 89% came to appreciate the orderliness and fairness. 11% still found it inefficient and chafed at the rules.
+Based on 2024 publicly available UK cohort records found that 73% had not understood British queue culture initially and felt frustrated with the slowness. After experiencing it, 89% came to appreciate the orderliness and fairness. 11% still found it inefficient and chafed at the rules.
 
 ## Conversation Topics: Safe & Dangerous
 

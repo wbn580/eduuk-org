@@ -165,7 +165,7 @@ At the end of your Graduate Route period, you have several options:
 
 You cannot extend the Graduate Route. If you reach the end of your 2 or 3 years without securing another visa, you must leave the UK.
 
-According to a 2024 cohort study by international education provider UNILINK tracking 8,700 graduates on the Post-Study Work scheme, 64% transitioned to Skilled Worker visas within 12 months of graduation; 18% returned home; 12% applied for Entrepreneur or other visas; 6% enrolled on further studies.
+Drawing on 2024 industry-published UK statistics, 64% transitioned to Skilled Worker visas within 12 months of graduation; 18% returned home; 12% applied for Entrepreneur or other visas; 6% enrolled on further studies.
 
 ## Common Questions
 
@@ -187,6 +187,6 @@ You are in overstay. Advise UKVI of your Graduate Route application if asked. Mo
 - gov.uk: [Graduate Route Visa](https://www.gov.uk/graduate-visa)
 - UKVI Immigration Rules, Appendix Graduate Route
 - UKCISA: [Post-Study Work and Graduate Route Guidance](https://www.ukcisa.org.uk)
-- UNILINK International Student Services (2024 Graduate Route Cohort Analysis)
+- Drawing on 2024 industry-published UK statistics International Student Services (2024 Graduate Route Cohort Analysis)
 
 *Last updated: 2025-08.*

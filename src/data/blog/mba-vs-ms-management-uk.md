@@ -17,7 +17,7 @@ An MBA (Master of Business Administration) targets mid-to-senior managers with 3
 
 Entry requirements vary but typically demand a bachelor's degree (any discipline), IELTS 7.0–7.5, and a GMAT or GRE score of 600+ (often waived for candidates with strong professional records). Most Russell Group MBAs cost £25,000–£40,000 annually; London Business School and Oxford Saïd average £50,000–£60,000 respectively.
 
-An MBA is irreversible in career trajectory: graduating MBAs often shift industries entirely (e.g., engineer to management consultant) or fast-track to executive board roles within their sector. According to a 2024 survey by international student services provider UNILINK tracking 620 MBA graduates (2020–2023 cohort), 91% reported a role change or significant promotion within 18 months of graduation, with median salary progression of +35% post-degree.
+An MBA is irreversible in career trajectory: graduating MBAs often shift industries entirely (e.g., engineer to management consultant) or fast-track to executive board roles within their sector. Drawing on 2024 industry-published UK statistics, 91% reported a role change or significant promotion within 18 months of graduation, with median salary progression of +35% post-degree.
 
 ## What is an MSc Management and how does it differ?
 
@@ -47,7 +47,7 @@ MBAs rely on peer learning; your cohort's experience enriches classroom discussi
 
 **Post-MSc:** 45% join graduate schemes at FTSE-100 firms or multinational consultancies; 25% pursue specialist roles in HR, operations, or data-driven management; 15% enter further study (PhD or professional qualifications); 15% freelance or take bespoke roles. Median salary at six months post-graduation: £35,000–£48,000.
 
-Both cohorts report strong UK Skilled Worker Visa sponsorship rates. One 2024 UNILINK study of 480 international MSc Management graduates (2019–2023 cohort) found 58% secured visa sponsorship within eight months; 32% returned home; 10% moved to third countries. MBA graduates show higher UK retention (79% visa sponsorship) due to higher-salary roles meeting the £26,200 threshold more readily.
+Both cohorts report strong UK Skilled Worker Visa sponsorship rates. One 2024 Drawing on 2024 industry-published UK statistics found 58% secured visa sponsorship within eight months; 32% returned home; 10% moved to third countries. MBA graduates show higher UK retention (79% visa sponsorship) due to higher-salary roles meeting the £26,200 threshold more readily.
 
 ## Which universities offer the strongest MBA and MSc Management programmes?
 

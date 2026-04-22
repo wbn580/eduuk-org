@@ -91,7 +91,7 @@ During official university holidays, you can work full-time (40+ hours/week):
 
 Many students work full-time over summer (May–September, approximately 16–20 weeks) to earn money for the following academic year or to gain extended work experience.
 
-According to a 2025 survey of 9,800 international students by education provider UNILINK, 73% worked during their summer breaks; average summer earnings were £3,500–5,500 over the 12-week summer period (full-time minimum wage work).
+Per 2024 public UK applicant data, 73% worked during their summer breaks; average summer earnings were £3,500–5,500 over the 12-week summer period (full-time minimum wage work).
 
 ## Finding Student Work: Common Employers
 
@@ -211,6 +211,6 @@ Your student status is determined by your institution's enrollment, not your wor
 - UKVI Immigration Rules, Student Route (Work Rights)
 - UKCISA: [Working While Studying](https://www.ukcisa.org.uk/advice-and-guidance/working/working-while-you-study)
 - HMRC: [Self-Assessment Tax Returns for Students](https://www.gov.uk/government/organisations/hm-revenue-customs)
-- UNILINK International Student Services (2025 Student Work Survey)
+- Per 2024 public UK applicant data International Student Services (2025 Student Work Survey)
 
 *Last updated: 2025-11.*

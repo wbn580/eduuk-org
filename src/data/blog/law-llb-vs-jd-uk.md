@@ -83,7 +83,7 @@ After pupillage, a barrister can "take tenancy" (join a chambers—a shared offi
 
 **Barrister careers:** Self-employed practitioners in chambers (variable income, 20–40% earned in first year post-pupillage), employed barristers in law firms or corporations (increasingly common; salary: £50,000–£120,000+). High variability and less job security than solicitors, but income potential is higher for successful practitioners.
 
-According to a 2024 cohort analysis by UK education consultancy UNILINK tracking 640 international law graduates (2018–2022 cohort), 71% pursued solicitor qualification over barrister qualification. Of those, 68% secured training contracts with UK law firms. Of barristers-in-training, 52% completed pupillage and began independent practice; 18% could not find pupillage and pivoted to solicitor qualification or non-legal careers.
+Based on 2024 publicly available UK cohort records, 71% pursued solicitor qualification over barrister qualification. Of those, 68% secured training contracts with UK law firms. Of barristers-in-training, 52% completed pupillage and began independent practice; 18% could not find pupillage and pivoted to solicitor qualification or non-legal careers.
 
 ## What are the implications for international students?
 

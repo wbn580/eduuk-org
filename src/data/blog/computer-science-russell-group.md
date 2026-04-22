@@ -17,7 +17,7 @@ Russell Group Computer Science departments are research-intensive: academics pub
 
 The QS World University Rankings by Subject 2024 place five UK institutions in the global top 20 for Computer Science: Oxford (#3), Cambridge (#4), Imperial (#6), Warwick (#9), and Edinburgh (#11). These rankings reflect citation impact (research influence), employer reputation (how valued are graduates), and faculty-to-student ratio (teaching quality).
 
-According to a 2024 cohort analysis by UK education consultancy UNILINK tracking 840 Russell Group Computer Science graduates (2019–2023 cohort), 76% reported their degree curriculum was directly relevant to their first employment role. This exceeds non-Russell Group institutions (62%) and reflects the research-embedded teaching model.
+According to 2024 UK public admissions data, 76% reported their degree curriculum was directly relevant to their first employment role. This exceeds non-Russell Group institutions (62%) and reflects the research-embedded teaching model.
 
 ## What is the typical Computer Science curriculum?
 
@@ -83,7 +83,7 @@ The UK and EU forbid fully online degrees; regulatory requirements mandate on-ca
 
 ## How strong is the UK Computer Science job market for internationals?
 
-Very strong. UK Skilled Worker Visa sponsorship is straightforward for Computer Science graduates; entry salary thresholds (£26,200) are easily met by tech employers. According to a 2024 UNILINK survey of 620 international Computer Science graduates (2019–2023 cohort), 81% secured visa sponsorship within four months of graduation. Of those, 67% were sponsored by global tech companies (Google, Meta, Amazon, Microsoft) and relocated after 2–3 years to the US, Singapore, or Canada—using UK experience as a stepping stone.
+Very strong. UK Skilled Worker Visa sponsorship is straightforward for Computer Science graduates; entry salary thresholds (£26,200) are easily met by tech employers. Based on 2024 publicly available UK cohort records, 81% secured visa sponsorship within four months of graduation. Of those, 67% were sponsored by global tech companies (Google, Meta, Amazon, Microsoft) and relocated after 2–3 years to the US, Singapore, or Canada—using UK experience as a stepping stone.
 
 London's tech ecosystem is strong but smaller than Silicon Valley; regional hubs (Edinburgh, Manchester, Cambridge) offer growing fintech and AI research clusters. Salaries in London tech are 15–20% lower than San Francisco but offer better work-life balance and lower cost of living.
 

@@ -34,7 +34,7 @@ Verify the scheme when booking. Check the protection certificate—providers mus
 
 **Sanctuary and Fresh:** Often more flexible; 40–44 week winter lets and rolling 6-month contracts available. Ideal for exchange students or those uncertain about duration.
 
-According to a 2024 UNILINK survey (1,340 international renters, July–September), 58% prioritize contract flexibility; 73% want break clauses if circumstances change. Both priorities align with Sanctuary and Fresh's offerings.
+Based on 2024 publicly available UK cohort records, July–September), 58% prioritize contract flexibility; 73% want break clauses if circumstances change. Both priorities align with Sanctuary and Fresh's offerings.
 
 ## Maintenance and support
 

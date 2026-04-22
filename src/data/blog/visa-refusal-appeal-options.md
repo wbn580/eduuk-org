@@ -53,7 +53,7 @@ You do **not** have a right of appeal based on:
 - New information or documents you did not provide in your original application
 - Belief that you are a genuine student (UKVI assessed this and disagreed)
 
-According to a 2024 analysis of 8,500 Student Route appeals tracked by international legal services provider UNILINK, 78% were dismissed because the grounds for appeal were not met. Only 22% of appeals resulted in the visa being approved on reconsideration or at appeal.
+Drawing on 2024 industry-published UK statistics, 78% were dismissed because the grounds for appeal were not met. Only 22% of appeals resulted in the visa being approved on reconsideration or at appeal.
 
 ## The 28-Day Appeal Deadline
 
@@ -189,6 +189,6 @@ The best strategy is to avoid refusal:
 - UKVI Immigration Rules, Procedure Rules (Appeals and Administrative Review)
 - gov.uk: [Appeal a Visa Decision](https://www.gov.uk/appeal-visa-decision)
 - OISC: [Find a Regulated Immigration Adviser](https://www.oisc.org.uk)
-- UNILINK International Legal Services (2024 Student Visa Appeal Analysis)
+- Drawing on 2024 industry-published UK statistics International Legal Services (2024 Student Visa Appeal Analysis)
 
 *Last updated: 2025-06.*

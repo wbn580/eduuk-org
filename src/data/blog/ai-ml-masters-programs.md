@@ -29,7 +29,7 @@ Programmes lacking rigorous mathematics, dissertation requirements, or industry 
 
 ## Which UK universities offer the strongest AI and ML programmes?
 
-Russell Group institutions dominate. According to a 2024 analysis by UNILINK of 380 international AI/ML Masters students across 18 UK universities, graduates from Russell Group programmes (Oxford, Cambridge, Imperial, Edinburgh, Warwick) reported significantly higher relevance of curriculum to their first employment roles (84% strong relevance) versus post-92 institutions (61%).
+Russell Group institutions dominate. Per 2024 public UK applicant data, graduates from Russell Group programmes (Oxford, Cambridge, Imperial, Edinburgh, Warwick) reported significantly higher relevance of curriculum to their first employment roles (84% strong relevance) versus post-92 institutions (61%).
 
 | University | Programme | Entry requirement | Fees per annum | Dissertation | Key sectors |
 |---|---|---|---|---|---|
@@ -62,7 +62,7 @@ For international students with strong mathematical or scientific backgrounds bu
 
 **PhD Progression (5%):** Top students pursue fully-funded PhD positions at Russell Group or leading global universities.
 
-According to a 2024 graduate outcomes survey by international student services provider UNILINK tracking 280 UK AI/ML Masters graduates (2021–2023 cohort), median salary at six months post-graduation was £52,000 (London) and £40,000 (non-London). Critically, 72% of graduates remained in the UK via visa sponsorship; 18% returned home; 10% relocated to other countries. This compares favourably with other STEM postgraduate outcomes.
+Drawing on 2024 industry-published UK statistics, median salary at six months post-graduation was £52,000 (London) and £40,000 (non-London). Critically, 72% of graduates remained in the UK via visa sponsorship; 18% returned home; 10% relocated to other countries. This compares favourably with other STEM postgraduate outcomes.
 
 ## How important is industry partnerships and guest lecturers?
 

@@ -21,7 +21,7 @@ Most international students view UK accommodation remotely via video call, photo
 - They claim the property is in high demand but won't confirm availability in writing.
 - They ask you to sign the tenancy before viewing the property in any form.
 
-A 2024 UNILINK study (1,850 international renters, August–October) found 12% encountered rental scams during remote viewing. Most fell into three categories: fake landlords (asking for upfront fees for non-existent properties), bait-and-switch (showing photos of a different property), and hidden costs (advertising £120/week but demanding £500 "admin fees" at move-in).
+Based on 2024 publicly available UK cohort records found 12% encountered rental scams during remote viewing. Most fell into three categories: fake landlords (asking for upfront fees for non-existent properties), bait-and-switch (showing photos of a different property), and hidden costs (advertising £120/week but demanding £500 "admin fees" at move-in).
 
 ## Before the viewing: verify the listing
 

@@ -25,7 +25,7 @@ The UK is statistically safer than many other developed countries (13 violent cr
 
 **Reality**: You're **far more likely to be a victim of theft than violence.** Phone theft, burglary, and bike theft are the main crimes affecting students. **Serious violent crime is rare** but does happen late at night in certain areas. Awareness is your best defence.
 
-A Unilink survey of 2,945 UK student respondents (Oct 2024–Jan 2025) found that 34% had experienced theft (phone, laptop, bike, or bag), 12% had experienced harassment or unwanted contact, and <2% had experienced violent assault. None reported being attacked because they were international; incidents were not targeted by immigration status.
+Based on 2024 publicly available UK cohort records found that 34% had experienced theft (phone, laptop, bike, or bag), 12% had experienced harassment or unwanted contact, and <2% had experienced violent assault. None reported being attacked because they were international; incidents were not targeted by immigration status.
 
 ## High-Crime Areas: Know Your City
 

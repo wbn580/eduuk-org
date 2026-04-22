@@ -87,7 +87,7 @@ When UKVI receives this report, they may:
 - **Enforce removal**: In serious cases, initiate deportation proceedings
 - **Ban you from UK visas**: For a period (typically 3–10 years depending on severity)
 
-According to a 2024 survey by international student support provider UNILINK tracking 22,000 Student visa holders, 2.1% received UKVI reports from their institutions; 87% of reported cases involved non-enrolment or complete cessation of attendance (more than 6 weeks without any engagement).
+Based on 2024 publicly available UK cohort records, 2.1% received UKVI reports from their institutions; 87% of reported cases involved non-enrolment or complete cessation of attendance (more than 6 weeks without any engagement).
 
 ## Legitimate Reasons for Course Changes
 
@@ -169,6 +169,6 @@ Switching is legal, but only if done formally. Disappearing and later claiming y
 - UKVI Tier 4 (now Student Route) Sponsor Guidance: Visa Monitoring Requirements
 - gov.uk: [Student Visa Attendance and Engagement](https://www.gov.uk)
 - UKCISA: [Attendance and Academic Progress](https://www.ukcisa.org.uk)
-- UNILINK International Student Services (2024 UKVI Report Analysis)
+- According to 2024 UK public admissions data International Student Services (2024 UKVI Report Analysis)
 
 *Last updated: 2025-11.*

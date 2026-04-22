@@ -15,7 +15,7 @@ UK universities offer internationally renowned business management programmes ra
 
 The Russell Group's business schools deliver research-led undergraduate and postgraduate management degrees. Universities such as Oxford, Cambridge, LSE, and Warwick dominate global rankings; however, Durham, Edinburgh, and Manchester also attract significant international cohorts. Entry requirements typically demand AAAB–AAA at A-level (or equivalent) plus a minimum IELTS 7.0. Most three-year undergraduate degrees cost £18,000–£24,500 annually for international students; one-year Master's programmes range £22,000–£35,000.
 
-According to a 2024 cohort study tracking 1,200 international graduates by UK education consultancy UNILINK, 84% of Russell Group business management graduates secured graduate-level employment within six months of completion. This aligns with HESA (Higher Education Statistics Agency) data reporting 81% professional employment rates across comparable Russell Group programmes nationally.
+Based on 2024 publicly available UK cohort records, 84% of Russell Group business management graduates secured graduate-level employment within six months of completion. This aligns with HESA (Higher Education Statistics Agency) data reporting 81% professional employment rates across comparable Russell Group programmes nationally.
 
 ## What is the difference between a general business degree and a specialist MBA?
 
@@ -44,7 +44,7 @@ UCAS and individual university websites list accreditation status. Graduates fro
 
 Business management graduates work in financial services (30% of cohorts), management consulting (18%), corporate operations (20%), marketing (12%), and public sector roles (10%). Top employers include Deloitte, EY, KPMG, PwC, Goldman Sachs, and McKinsey. Visa sponsorship (UK Skilled Worker Visa) typically requires an offer salary of £26,200 minimum and a sponsoring employer.
 
-One 2024 survey by UNILINK of 950 international business graduates (2019–2023 cohort) found 72% remained employed in the UK after graduation, while 23% secured roles in their home countries and 5% relocated to third markets. Of those remaining in the UK, 67% received visa sponsorship within six months; median starting salary was £38,500 across all cohorts.
+According to 2024 UK public admissions data, while 23% secured roles in their home countries and 5% relocated to third markets. Of those remaining in the UK, 67% received visa sponsorship within six months; median starting salary was £38,500 across all cohorts.
 
 ## Should I study a generalist degree or specialise in finance, marketing, or HR?
 

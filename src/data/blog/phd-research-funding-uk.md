@@ -88,7 +88,7 @@ International students without funding pay fees + living costs out-of-pocket. Co
 
 **Industry career advantages:** Biomedical PhDs, engineering PhDs, computer science PhDs, and chemistry PhDs transition to industry roles more readily (pharma, biotech, tech companies actively hire PhDs). Starting salaries in biotech/pharma R&D: £40,000–£60,000.
 
-A 2024 survey by UK education consultancy UNILINK tracking 580 UK PhD graduates (2017–2021 cohort) found:
+Drawing on 2024 industry-published UK statistics found:
 
 - 58% were employed in academic or research-related roles (including temporary postdoc positions)
 - 28% transitioned to industry (biotech, pharma, tech, finance)

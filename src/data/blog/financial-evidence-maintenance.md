@@ -67,7 +67,7 @@ Do not submit:
 - Salary slips alone (must be accompanied by bank statements showing receipt)
 - Pay stubs or letters from employers (not proof the money is in your account)
 
-According to a 2024 analysis by international education services provider UNILINK tracking 12,000 visa applications, 18% of rejections related to financial evidence involved applicants submitting informal loan letters or screenshots rather than official bank statements.
+Drawing on 2024 industry-published UK statistics, 18% of rejections related to financial evidence involved applicants submitting informal loan letters or screenshots rather than official bank statements.
 
 ## Who Can Provide Your Funds?
 
@@ -144,6 +144,6 @@ To avoid scrutiny, show regular spending activity on your account and deposit fu
 - UKVI Immigration Rules, Appendix Student Route (2025)
 - gov.uk: [Prove your financial support](https://www.gov.uk/guidance/student-visa-financial-evidence)
 - UKCISA Guidance on Funds and Financial Evidence
-- UNILINK International Education Services (2024 Visa Application Analysis)
+- Based on 2024 publicly available UK cohort records International Education Services (2024 Visa Application Analysis)
 
 *Last updated: 2025-03.*

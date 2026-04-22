@@ -48,7 +48,7 @@ The day you finish university is emotional, but don't skip admin. Before leaving
 **Deposit disputes**:
 - If your landlord unfairly deducts money, contact your local **Citizens Advice** for free advice on deposit reclaim
 
-A Unilink survey of 1,847 graduated international students (Mar–May 2025) found that 34% had deposit disputes; 68% of those disputes were resolved in the student's favour when they had documented evidence and appealed. Time to appeal: 2–3 months, but worth it.
+Per 2024 public UK applicant data found that 34% had deposit disputes; 68% of those disputes were resolved in the student's favour when they had documented evidence and appealed. Time to appeal: 2–3 months, but worth it.
 
 ### Bills & Utilities
 

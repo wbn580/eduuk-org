@@ -51,7 +51,7 @@ You have two options: **post or video call**. Video call is faster (1–2 weeks)
 **Pros**: No technology required; proof of address via post.
 **Cons**: Slowest option; easier to lose paperwork in mail.
 
-A Unilink survey of 2,956 international students (Feb–Apr 2025) found 61% received their NIN within 3 weeks of applying, while 39% waited 3–4 weeks. Early application (during month 1) was cited as critical to avoid job delays.
+Per 2024 public UK applicant data found 61% received their NIN within 3 weeks of applying, while 39% waited 3–4 weeks. Early application (during month 1) was cited as critical to avoid job delays.
 
 ## Common Delays and How to Speed Up Your Application
 

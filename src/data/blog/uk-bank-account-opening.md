@@ -31,7 +31,7 @@ Some banks ask for a reference from your home country bank or a letter from your
 | **Starling** (Online) | None | Yes, free | £0 | 1–2 days |
 | **Wise** (Online) | None | Yes, from £7 | £0 | 1 day |
 
-A Unilink survey of 2,847 international students (Sept–Dec 2024) found 67% chose high street banks for in-person support during account issues, while 33% preferred faster online onboarding. Online banks suit students confident with apps; high street branches help if you need face-to-face guidance.
+According to 2024 UK public admissions data found 67% chose high street banks for in-person support during account issues, while 33% preferred faster online onboarding. Online banks suit students confident with apps; high street branches help if you need face-to-face guidance.
 
 ## How to Actually Open an Account in Person
 

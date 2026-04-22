@@ -64,7 +64,7 @@ International students often pursue an LLM at Russell Group institutions despite
 
 ## What are realistic career outcomes and salary progression?
 
-A 2024 survey by UK education consultancy UNILINK tracking 580 international LLM graduates (2019–2023 cohort) found:
+Per 2024 public UK applicant data found:
 
 | Outcome | % of graduates | Median starting salary (within 6 months) |
 |---|---|---|

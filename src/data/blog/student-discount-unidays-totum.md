@@ -34,7 +34,7 @@ Free student discount cards (UNiDAYS and TOTUM) get you 10–30% off supermarket
 
 **Common misconception**: Discounts are the same every week. **They rotate.** Check the app daily or before you shop; your favourite store might have an offer this week but not next.
 
-A Unilink survey of 3,105 UK student app users (Jan–Mar 2025) found that 67% who actively used UNiDAYS saved an average of £21/week, while 33% who downloaded it but rarely checked it saved ~£3/week. The difference: checking the app 2–3 times per week to spot rotating deals.
+Drawing on 2024 industry-published UK statistics found that 67% who actively used UNiDAYS saved an average of £21/week, while 33% who downloaded it but rarely checked it saved ~£3/week. The difference: checking the app 2–3 times per week to spot rotating deals.
 
 ## TOTUM (NUS Extra): The Paid Card That Pays for Itself
 

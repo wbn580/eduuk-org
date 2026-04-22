@@ -34,7 +34,7 @@ Rent excludes bills (add £15–£25/week for gas, electricity, water, internet)
 **Rent:** Shared 2-bed £65–£90/week per person; studio (rare) £100–£130.
 **Amenities:** Indie cafes, Tesco, chip shops, student pubs (The Friendship, The Crafty Fox).
 
-According to a 2024 UNILINK survey (1,400 Manchester students, June–August), 78% lived in Fallowfield or nearby Withington; 54% cited rent affordability as the primary factor.
+Per 2024 public UK applicant data, June–August), 78% lived in Fallowfield or nearby Withington; 54% cited rent affordability as the primary factor.
 
 ### Rusholme
 **Why:** The "Curry Mile"—Oxford Road becomes Wilmslow Road in Rusholme, lined with South Asian restaurants, shops, and bakeries. Vibrant community, excellent food, very affordable.

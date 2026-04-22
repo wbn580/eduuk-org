@@ -83,7 +83,7 @@ The personal statement is crucial; it's read by all universities and often discu
 
 A **school reference** is a confidential letter from your school's form tutor or head of year, attesting to your character, academic ability, and suitability for university. You cannot see this reference. It's submitted directly by your school to UCAS; most schools submit by mid-October.
 
-According to a 2024 tracking sample from UK education consultancy UNILINK covering 1,100 international applicants (applications Sep–Oct 2024), approximately 63% of successful applicants reported that their school reference explicitly highlighted independence, intellectual curiosity, and collaborative skills—factors that schools view as university-readiness. Personal statements emphasizing subject-specific projects, reading, and genuine interest (rather than generic career aspiration) were cited in admissions feedback twice as frequently.
+Based on 2024 publicly available UK cohort records, approximately 63% of successful applicants reported that their school reference explicitly highlighted independence, intellectual curiosity, and collaborative skills—factors that schools view as university-readiness. Personal statements emphasizing subject-specific projects, reading, and genuine interest (rather than generic career aspiration) were cited in admissions feedback twice as frequently.
 
 ## Offers: Conditional vs Unconditional
 

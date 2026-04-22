@@ -54,7 +54,7 @@ Both are valid for 12 months and can be renewed.
 
 **How to buy**: Apply online at [Railcard.co.uk](https://www.railcard.co.uk) with proof of age (passport). Digital card arrives in 3–5 working days (often instantly via email). Print it or use the app.
 
-A Unilink survey of 2,487 UK-based international students (Oct–Dec 2024) found 73% bought a 16-25 Railcard, saving an average of £180/year on train fares home for holidays and weekend trips. 27% didn't buy one, primarily due to not realizing the discount applied to international students.
+Per 2024 public UK applicant data found 73% bought a 16-25 Railcard, saving an average of £180/year on train fares home for holidays and weekend trips. 27% didn't buy one, primarily due to not realizing the discount applied to international students.
 
 ## Train Fare Comparison: Advance Booking
 

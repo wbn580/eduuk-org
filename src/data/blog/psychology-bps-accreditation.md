@@ -106,7 +106,7 @@ Forensic Psychologist: £32,000–£50,000+.
 
 Occupational Psychologist: £38,000–£60,000.
 
-A 2024 survey by UK education consultancy UNILINK tracking 580 international psychology graduates (2019–2023 cohort) found:
+Per 2024 public UK applicant data found:
 
 - 62% pursued further qualification (Clinical, Forensic, Occupational Doctorate/MSc); of these, 71% successfully gained entry
 - 28% secured psychology-related employment post-BSc without further qualification

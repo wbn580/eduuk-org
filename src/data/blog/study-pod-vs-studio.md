@@ -98,7 +98,7 @@ Most providers offer flexible leases (6–12 months), all-inclusive bills, and f
 - **Anyone who needs separation of work and sleep** (bedroom = office = living room).
 - **Long-term stays** (2+ years; cramped space becomes draining).
 
-According to a 2024 UNILINK study (450 study pod residents, March–July), 68% were satisfied long-term, but 22% moved out after 3–6 months citing space limitations and isolation (not using shared amenities). Satisfaction was highest among budget-conscious first-years (82% satisfied) and lowest among those who expected a full studio experience (48% satisfied).
+According to 2024 UK public admissions data, March–July), 68% were satisfied long-term, but 22% moved out after 3–6 months citing space limitations and isolation (not using shared amenities). Satisfaction was highest among budget-conscious first-years (82% satisfied) and lowest among those who expected a full studio experience (48% satisfied).
 
 ## Cost reality: is a study pod worth it?
 

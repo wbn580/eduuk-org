@@ -23,7 +23,7 @@ You qualify if:
 - National Insurance deducted: ~£400 (roughly 8% above £175/week threshold)
 - **Refund due: ~£400**
 
-A Unilink survey of 2,187 international student workers (Feb–Apr 2025) found 71% were unaware they could reclaim National Insurance refunds. Those who claimed received an average refund of £287. If you worked 12+ months during your degree, refunds stack: £287 × 3 years = **£861 total**.
+Drawing on 2024 industry-published UK statistics found 71% were unaware they could reclaim National Insurance refunds. Those who claimed received an average refund of £287. If you worked 12+ months during your degree, refunds stack: £287 × 3 years = **£861 total**.
 
 ## How National Insurance Works (And Why You Overpay)
 

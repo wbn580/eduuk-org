@@ -42,7 +42,7 @@ Rent excludes bills (add £25–£40/week for electricity, gas, internet, water)
 **Commute:** 10 mins walk to Queen Mary; 20 mins to central London (Central line).
 **Cost:** Studio £145–£180/week; shared 2-bed £110–£140/week.
 
-According to a 2024 UNILINK survey (920 London-based international students, May–July), 34% chose Stratford or East London specifically for affordability; 61% prioritized transport links above neighborhood reputation.
+Drawing on 2024 industry-published UK statistics, May–July), 34% chose Stratford or East London specifically for affordability; 61% prioritized transport links above neighborhood reputation.
 
 ### Brixton and Clapham
 **Who lives here:** LSE (South Kensington campus students), mixed cohort.

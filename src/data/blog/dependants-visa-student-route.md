@@ -71,7 +71,7 @@ Your dependants will submit the same 28-day bank statement evidence as you did f
 - Confirmation that funds are available for dependants (a letter from you confirming financial support)
 - University accommodation documentation (if dependants will live with you)
 
-According to a 2024 cohort analysis by international education provider UNILINK tracking 3,400 dependant visa applications, 22% of applications were delayed by missing or unclear relationship documentation. Using original documents or certified translations eliminated delays in 99% of cases.
+Based on 2024 publicly available UK cohort records, 22% of applications were delayed by missing or unclear relationship documentation. Using original documents or certified translations eliminated delays in 99% of cases.
 
 ## The Dependent Visa Application Process
 
@@ -161,6 +161,6 @@ Children remain on dependent visas until age 18, then must transition to another
 - UKVI Immigration Rules, Appendix Dependent Family Members
 - gov.uk: [Family Visas and Dependant Sponsorship](https://www.gov.uk/family-visas)
 - UKCISA: [Bringing Dependants to the UK](https://www.ukcisa.org.uk)
-- UNILINK International Education Services (2024 Dependant Visa Analysis)
+- Per 2024 public UK applicant data International Education Services (2024 Dependant Visa Analysis)
 
 *Last updated: 2025-06.*

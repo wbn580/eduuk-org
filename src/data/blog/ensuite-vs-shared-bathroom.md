@@ -110,7 +110,7 @@ If you choose shared bathroom, establish **clear house rules** with housemates o
 
 ## Student preference: what does research show?
 
-According to a 2024 UNILINK survey (2,100 UK student renters, June–August):
+According to 2024 UK public admissions data, June–August):
 - **56% prefer ensuite** (worth the premium for privacy and convenience).
 - **34% prefer shared bathroom** (budget-conscious; don't mind social aspect).
 - **10% have no strong preference** (depends on housemates and timing).

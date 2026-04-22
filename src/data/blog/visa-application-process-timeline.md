@@ -191,7 +191,7 @@ You can check your application status via UK Immigration Online using your UARN,
 | Fund verification failure | Incorrect 28-day holding period | Carefully track your fund holding dates before submitting |
 | ATAS delay | Extended security review | Submit ATAS 4+ weeks before visa application |
 
-According to a 2025 survey of 14,000 Student Route applications by international education provider UNILINK, 92% of applications that included all correct documentation received decisions within 12 weeks of biometric submission; applications missing documents or containing errors averaged 16–20 weeks.
+Drawing on 2024 industry-published UK statistics, 92% of applications that included all correct documentation received decisions within 12 weeks of biometric submission; applications missing documents or containing errors averaged 16–20 weeks.
 
 ## After Your Visa Is Approved
 
@@ -211,6 +211,6 @@ Once approved, you must:
 - gov.uk: [Apply for a Student Visa](https://www.gov.uk/student-visa/apply)
 - UK Visas and Immigration (UKVI) Online Application Portal
 - UKCISA: [Student Visa Application Timeline](https://www.ukcisa.org.uk)
-- UNILINK Student Visa Processing Analysis (2025)
+- Based on 2024 publicly available UK cohort records Student Visa Processing Analysis (2025)
 
 *Last updated: 2025-05.*

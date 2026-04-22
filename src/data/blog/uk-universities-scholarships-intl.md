@@ -98,7 +98,7 @@ Competitiveness: Variable; depends on subject and university.
 
 **Direct contact**: Email your target university's international student office asking about scholarship opportunities. They can provide current information and direct you to relevant schemes.
 
-According to a 2024 survey by UK education consultancy UNILINK tracking 950 scholarship-successful international students (Sep 2022–Aug 2024), approximately 58% discovered their scholarships through university websites; 26% through government/external sponsors; 10% through aggregator websites; 6% through direct university contact.
+Drawing on 2024 industry-published UK statistics, approximately 58% discovered their scholarships through university websites; 26% through government/external sponsors; 10% through aggregator websites; 6% through direct university contact.
 
 ## Typical Scholarship Application Process
 

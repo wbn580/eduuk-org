@@ -65,7 +65,7 @@ Scottish universities participate in UCAS and follow the same application timeli
 
 Scottish universities receive research funding from UK Research and Innovation (UKRI) and Scottish Funding Council. Both Edinburgh and Glasgow attract substantial research income (approximately £650+ million annually for Edinburgh; £450+ million for Glasgow), reflecting strong research cultures.
 
-According to a 2024 tracking sample from UK education consultancy UNILINK covering 480 Scottish university postgraduates (Sep 2023–Aug 2024), approximately 69% cited research quality and supervisor accessibility as primary motivators for choosing Scottish universities. This reflects Scottish universities' research emphasis, particularly at postgraduate level.
+According to 2024 UK public admissions data, approximately 69% cited research quality and supervisor accessibility as primary motivators for choosing Scottish universities. This reflects Scottish universities' research emphasis, particularly at postgraduate level.
 
 Edinburgh's research standing is comparable to Manchester; Glasgow's is comparable to Durham or Warwick. They're less research-intensive than G5 universities but maintain strong research cultures and funding.
 
