@@ -2,144 +2,365 @@
 import IconX from "@/assets/icons/IconX.svg";
 import IconMoon from "@/assets/icons/IconMoon.svg";
 import IconSearch from "@/assets/icons/IconSearch.svg";
-import IconArchive from "@/assets/icons/IconArchive.svg";
 import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
 import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
 import LinkButton from "./LinkButton.astro";
 import { SITE } from "@/config";
 
 const { pathname } = Astro.url;
-
-// Remove trailing slash from current pathname if exists
 const currentPath =
   pathname.endsWith("/") && pathname !== "/" ? pathname.slice(0, -1) : pathname;
 
 const isActive = (path: string) => {
   const currentPathArray = currentPath.split("/").filter(p => p.trim());
   const pathArray = path.split("/").filter(p => p.trim());
-
   return currentPath === path || currentPathArray[0] === pathArray[0];
 };
+
+// EduUK · Bodleian Copper nav
+const navItems = [
+  { href: "/posts/", label: "Q&A" },
+  { href: "/tags/", label: "Tags" },
+  { href: "/tags/universities/", label: "Universities" },
+  { href: "/tags/visa/", label: "Visa" },
+  { href: "/tags/life/", label: "Life" },
+  { href: "/archives/", label: "Archive" },
+];
 ---
 
 <a
   id="skip-to-content"
   href="#main-content"
-  class="absolute start-16 -top-full z-50 bg-background px-3 py-2 text-accent backdrop-blur-lg transition-all focus:top-4"
+  class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:start-3 focus:z-50 focus:rounded-md focus:bg-ink focus:px-3 focus:py-2 focus:text-cream"
 >
   Skip to content
 </a>
 
-<header
-  class="app-layout flex flex-col items-center justify-between sm:flex-row"
->
-  <div
-    id="top-nav-wrap"
-    class:list={[
-      "py-4 sm:py-6",
-      "border-b border-border",
-      "relative w-full bg-background",
-      "flex items-baseline justify-between sm:items-center",
-    ]}
-  >
-    <a
-      href="/"
-      class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
-    >
-      {SITE.title}
+<header class="tg-nav-wrap">
+  <div class="tg-nav">
+    <a href="/" class="brand" aria-label={SITE.title}>
+      <span class="brand-badge" aria-hidden="true">UK</span>
+      <span class="brand-name">
+        <b>edu<i>UK</i>.</b>
+        <span class="brand-sub">UK Study · Answered Clearly</span>
+      </span>
     </a>
-    <nav
-      id="nav-menu"
-      class="flex w-full flex-col items-center sm:ms-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0"
-    >
+
+    <nav id="nav-menu" aria-label="Primary">
       <button
         id="menu-btn"
-        class="focus-outline self-end p-2 sm:hidden"
-        aria-label="Open Menu"
+        class="menu-btn"
+        aria-label="Open menu"
         aria-expanded="false"
         aria-controls="menu-items"
       >
         <IconX id="close-icon" class="hidden" />
         <IconMenuDeep id="menu-icon" />
       </button>
-      <ul
-        id="menu-items"
-        class:list={[
-          "mt-4 grid w-44 grid-cols-2 place-content-center gap-2",
-          "[&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium [&>li>a]:hover:text-accent sm:[&>li>a]:px-2 sm:[&>li>a]:py-1",
-          "hidden",
-          "sm:mt-0 sm:flex sm:w-auto sm:gap-x-5 sm:gap-y-0",
-        ]}
-      >
-        <li class="col-span-2">
-          <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
-            Blog
-          </a>
-        </li>
-        <li class="col-span-2">
-          <a href="/tags" class:list={{ "active-nav": isActive("/tags") }}>
-            Tags
-          </a>
-        </li>
-        <li class="col-span-2">
-          <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
-            About
-          </a>
-        </li>
+
+      <ul id="menu-items" class="nav-links hidden sm:flex">
         {
-          SITE.showArchives && (
-            <li class="col-span-2">
-              <LinkButton
-                href="/archives"
+          navItems.map(item => (
+            <li>
+              <a
+                href={item.href}
                 class:list={[
-                  "focus-outline flex justify-center p-3 sm:p-1",
-                  {
-                    "active-nav [&>svg]:stroke-accent": isActive("/archives"),
-                  },
+                  "nav-link",
+                  { "is-active": isActive(item.href.replace(/\/$/, "")) },
                 ]}
-                title="Archives"
-                aria-label="Archives"
               >
-                <IconArchive class="hidden sm:inline-block" />
-                <span class="sm:sr-only">Archives</span>
-              </LinkButton>
+                {item.label}
+              </a>
             </li>
-          )
+          ))
         }
-        <li class="col-span-1 flex items-center justify-center">
+        <li class="nav-aux">
           <LinkButton
-            href="/search"
-            class:list={[
-              "focus-outline flex p-3 sm:p-1",
-              { "[&>svg]:stroke-accent": isActive("/search") },
-            ]}
+            href="/search/"
+            class="nav-icon"
             title="Search"
             aria-label="Search"
           >
             <IconSearch />
-            <span class="sr-only">Search</span>
           </LinkButton>
         </li>
         {
           SITE.lightAndDarkMode && (
-            <li class="col-span-1 flex items-center justify-center">
+            <li class="nav-aux">
               <button
                 id="theme-btn"
-                class="focus-outline relative size-12 p-4 sm:size-8 hover:[&>svg]:stroke-accent"
-                title="Toggle light & dark"
-                aria-label="auto"
+                class="nav-icon theme-btn"
+                title="Toggle theme"
+                aria-label="Toggle theme"
                 aria-live="polite"
               >
-                <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-                <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
+                <IconMoon id="moon-ico" class="ico-moon" />
+                <IconSunHigh id="sun-ico" class="ico-sun" />
               </button>
             </li>
           )
         }
+        <li class="nav-cta-li">
+          <a
+            href="https://www.mikecrm.com/XnSiQG4"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            class="nav-cta"
+          >Uni Match →</a>
+        </li>
       </ul>
     </nav>
   </div>
 </header>
+
+<style>
+  .tg-nav-wrap {
+    width: 100%;
+    background: transparent;
+  }
+  .tg-nav {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 18px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+  @media (max-width: 720px) {
+    .tg-nav {
+      padding: 14px 18px;
+      flex-wrap: wrap;
+    }
+  }
+
+  /* BRAND */
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: inherit;
+    text-decoration: none;
+  }
+  .brand-badge {
+    width: 44px;
+    height: 44px;
+    background: var(--maple);
+    color: var(--cream);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    border: 2px solid var(--ink);
+    box-shadow: 3px 3px 0 var(--ink);
+    position: relative;
+    flex-shrink: 0;
+  }
+  .brand-badge::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border: 1px dashed rgba(255, 255, 255, 0.32);
+    border-radius: 7px;
+  }
+  .brand-name {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }
+  .brand-name b {
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+  }
+  .brand-name b i {
+    font-style: normal;
+    color: var(--maple);
+  }
+  .brand-sub {
+    font-size: 10px;
+    color: var(--pine);
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+  :global([data-theme="dark"]) .brand-sub {
+    color: var(--sun);
+  }
+
+  /* NAV LIST */
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+  }
+  .nav-links.hidden {
+    display: none;
+  }
+  @media (min-width: 640px) {
+    .nav-links.hidden {
+      display: flex;
+    }
+  }
+  @media (max-width: 639px) {
+    #nav-menu {
+      width: 100%;
+    }
+    .nav-links {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 2px;
+      width: 100%;
+      margin-top: 10px;
+      padding: 8px;
+      border: 1.5px solid var(--ink);
+      border-radius: 14px;
+      background: var(--card);
+      box-shadow: 3px 3px 0 var(--ink);
+    }
+    .nav-links li {
+      width: 100%;
+    }
+    .nav-link,
+    .nav-icon,
+    .nav-cta {
+      width: 100%;
+      justify-content: flex-start;
+    }
+  }
+
+  .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 999px;
+    color: var(--ink-2);
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    background: var(--cream);
+    color: var(--ink);
+  }
+  .nav-link.is-active {
+    background: var(--ink);
+    color: var(--cream);
+  }
+  :global([data-theme="dark"]) .nav-link:hover {
+    background: var(--card);
+    color: var(--sun);
+  }
+  :global([data-theme="dark"]) .nav-link.is-active {
+    background: var(--sun);
+    color: var(--ink);
+  }
+
+  .nav-aux {
+    display: inline-flex;
+  }
+  .nav-icon {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    color: var(--ink-2);
+    background: transparent;
+    border: none;
+    transition: color 0.15s, background 0.15s;
+  }
+  .nav-icon:hover {
+    background: var(--cream);
+    color: var(--maple);
+  }
+  .nav-icon :global(svg) {
+    width: 18px;
+    height: 18px;
+  }
+
+  .theme-btn {
+    position: relative;
+  }
+  .theme-btn :global(.ico-moon),
+  .theme-btn :global(.ico-sun) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  :global([data-theme="light"]) .theme-btn :global(.ico-sun),
+  :global(:root:not([data-theme="dark"])) .theme-btn :global(.ico-sun) {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(90deg) scale(0);
+  }
+  :global([data-theme="dark"]) .theme-btn :global(.ico-moon) {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(-90deg) scale(0);
+  }
+
+  .nav-cta-li {
+    margin-left: 6px;
+  }
+  .nav-cta {
+    background: var(--maple);
+    color: var(--cream);
+    border: 2px solid var(--ink);
+    box-shadow: 3px 3px 0 var(--ink);
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 13px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.15s, box-shadow 0.15s;
+    text-decoration: none;
+  }
+  .nav-cta:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0 var(--ink);
+  }
+  .nav-cta:active {
+    transform: translate(1px, 1px);
+    box-shadow: 2px 2px 0 var(--ink);
+  }
+
+  /* Mobile hamburger */
+  .menu-btn {
+    display: none;
+    background: transparent;
+    border: 1.5px solid var(--ink);
+    color: var(--ink);
+    border-radius: 10px;
+    padding: 6px;
+    margin-left: auto;
+  }
+  .menu-btn :global(svg) {
+    width: 22px;
+    height: 22px;
+  }
+  @media (max-width: 639px) {
+    .menu-btn {
+      display: inline-flex;
+    }
+  }
+  .menu-btn :global(.hidden) {
+    display: none;
+  }
+</style>
 
 <script>
   function toggleNav() {
@@ -152,10 +373,8 @@ const isActive = (path: string) => {
 
     menuBtn.addEventListener("click", () => {
       const openMenu = menuBtn.getAttribute("aria-expanded") === "true";
-
       menuBtn.setAttribute("aria-expanded", openMenu ? "false" : "true");
-      menuBtn.setAttribute("aria-label", openMenu ? "Open Menu" : "Close Menu");
-
+      menuBtn.setAttribute("aria-label", openMenu ? "Open menu" : "Close menu");
       menuItems.classList.toggle("hidden");
       menuIcon.classList.toggle("hidden");
       closeIcon.classList.toggle("hidden");
@@ -163,7 +382,5 @@ const isActive = (path: string) => {
   }
 
   toggleNav();
-
-  // Runs on view transitions navigation
   document.addEventListener("astro:after-swap", toggleNav);
 </script>
