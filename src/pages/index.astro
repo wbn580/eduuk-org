@@ -3,143 +3,752 @@ import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-import Socials from "@/components/Socials.astro";
-import LinkButton from "@/components/LinkButton.astro";
-import Card from "@/components/Card.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
-import IconRss from "@/assets/icons/IconRss.svg";
-import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
-import { SITE } from "@/config";
-import { SOCIALS } from "@/constants";
+import { getPath } from "@/utils/getPath";
 import { slugifyTag } from "@/utils/tagSlug";
 
+// ---------- data ----------
 const posts = await getCollection("blog");
+const sorted = getSortedPosts(posts);
 
-const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const tagCount = (tag: string) =>
+  posts.filter(
+    p => !p.data.draft && (p.data.tags ?? []).includes(tag)
+  ).length;
 
-// 5 main categories for navigation. Tag values must match article frontmatter tags.
-const categories = [
-  { emoji: "🎓", name: "Universities", desc: "G5 / Russell / rankings" },
-  { emoji: "📚", name: "Courses", desc: "Business / STEM / Arts" },
-  { emoji: "🛂", name: "Visa", desc: "Student / Graduate Route" },
-  { emoji: "🏠", name: "Accommodation", desc: "Halls / private / deposits" },
-  { emoji: "🧋", name: "Life", desc: "Bank / NHS / transport" },
+// Gear patches · 6 categories to match real frontmatter tags
+const patches = [
+  { emoji: "🎓", label: "Universities", tag: "Universities", tone: "maple" },
+  { emoji: "📚", label: "Courses", tag: "Courses", tone: "pine" },
+  { emoji: "🛂", label: "Visa", tag: "Visa", tone: "bark" },
+  { emoji: "🏠", label: "Accommodation", tag: "Accommodation", tone: "sky" },
+  { emoji: "☕", label: "Life", tag: "Life", tone: "sun" },
+  { emoji: "💼", label: "Finance", tag: "Finance", tone: "maple-2" },
+];
+
+// Logbook · most-recent 8 entries, categorised by tag family
+const TAG_TO_CAT: {
+  match: (tags: string[]) => boolean;
+  cat: { key: string; emoji: string; label: string };
+}[] = [
+  {
+    match: t => t.some(x => ["Visa"].includes(x)),
+    cat: { key: "visa", emoji: "🛂", label: "Visa" },
+  },
+  {
+    match: t => t.some(x => ["Accommodation"].includes(x)),
+    cat: { key: "house", emoji: "🏠", label: "Housing" },
+  },
+  {
+    match: t => t.some(x => ["Work"].includes(x)),
+    cat: { key: "job", emoji: "💼", label: "Work" },
+  },
+  {
+    match: t => t.some(x => ["Life", "Health", "Admin", "Money", "Practical", "Safety"].includes(x)),
+    cat: { key: "life", emoji: "☕", label: "Life" },
+  },
+  {
+    match: t => t.some(x => ["Universities", "Courses"].includes(x)),
+    cat: { key: "uni", emoji: "🎓", label: "Academic" },
+  },
+];
+
+function categorize(tags: string[] | undefined) {
+  const t = tags ?? [];
+  for (const m of TAG_TO_CAT) if (m.match(t)) return m.cat;
+  return { key: "other", emoji: "📌", label: "Other" };
+}
+
+function fmtDate(d: Date | undefined | null) {
+  if (!d) return "";
+  const dd = new Date(d);
+  const pad = (n: number) => String(n).padStart(2, "0");
+  const months = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+  return `${pad(dd.getDate())} ${months[dd.getMonth()]} ${dd.getFullYear()}`;
+}
+
+const logbook = sorted.slice(0, 8).map((p, i) => ({
+  n: String(i + 1).padStart(2, "0"),
+  title: p.data.title,
+  sub: p.data.description,
+  cat: categorize(p.data.tags),
+  when: fmtDate(p.data.modDatetime ?? p.data.pubDatetime),
+  href: getPath(p.id, p.filePath),
+}));
+
+const totalCount = posts.filter(p => !p.data.draft).length;
+
+// G5 spotlight
+const g5 = [
+  {
+    flag: "OXF",
+    rank: "#3",
+    name: "Oxford",
+    en: "University of Oxford",
+    bits: ["QS #3", "Collegiate", "Tutorial system"],
+    href: "/tags/universities/",
+  },
+  {
+    flag: "CAM",
+    rank: "#5",
+    name: "Cambridge",
+    en: "University of Cambridge",
+    bits: ["QS #5", "STEM-leaning", "Collegiate"],
+    href: "/tags/universities/",
+  },
+  {
+    flag: "LDN",
+    rank: "#2",
+    name: "Imperial",
+    en: "Imperial College London",
+    bits: ["QS #2", "STEM focus", "Central London"],
+    href: "/tags/universities/",
+  },
+  {
+    flag: "LDN",
+    rank: "#9",
+    name: "UCL",
+    en: "University College London",
+    bits: ["QS #9", "Multi-faculty", "Large intl cohort"],
+    href: "/tags/universities/",
+  },
 ];
 ---
 
 <Layout>
   <Header />
-  <main id="main-content" data-layout="index" class="app-layout">
-    <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        UK Study, Answered Clearly
-      </h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="inline-block"
-        aria-label="RSS Feed"
-        title="RSS Feed"
-      >
-        <IconRss
-          width={20}
-          height={20}
-          class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
 
-      <p>
-        <strong>Study in UK</strong> is a knowledge base for international students headed to the United Kingdom. From G5 course choice and Student visa routes to halls, bank accounts, NHS registration and part-time work, we break the questions international students ask most into clear, factual answers — grounded in public data from UKVI, UCAS and HESA and real student experience. Facts first, updated regularly.
-      </p>
-      <p class="mt-2">
-        Browse by category below, or learn more in
-        <LinkButton
-          class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="/about/"
-        >
-          About
-        </LinkButton>.
-      </p>
-      {
-        // only display if at least one social link is enabled
-        SOCIALS.length > 0 && (
-          <div class="mt-4 flex max-sm:flex-col sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Contact:</div>
-            <Socials />
+  <main id="main-content" data-layout="index">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <span class="hero-eyebrow">BODLEIAN GUIDE · 2026 EDITION</span>
+          <h1>
+            Study in the UK,<br />
+            <span class="maple">answered</span><br />
+            <span class="cv">clearly</span>.
+          </h1>
+          <p class="hero-sub">
+            From UCAS offer to Graduate Route, eduUK breaks the journey into questions you can actually answer — CAS, ATAS, Student Visa, BRP, eVisa, NHS, Graduate Route — {totalCount} long-form guides grounded in UKVI, UCAS and HESA data.
+          </p>
+          <div class="hero-trail">
+            <div class="tstep c1"><span class="dot"></span>OFFER</div>
+            <span class="tsep">→</span>
+            <div class="tstep c2"><span class="dot"></span>CAS</div>
+            <span class="tsep">→</span>
+            <div class="tstep c3"><span class="dot"></span>STUDENT VISA</div>
+            <span class="tsep">→</span>
+            <div class="tstep c4"><span class="dot"></span>GRADUATE ROUTE</div>
           </div>
-        )
-      }
-    </section>
-
-    <section id="categories" class="pt-12 pb-6 border-b border-border">
-      <h2 class="text-2xl font-semibold tracking-wide">Browse by Category</h2>
-      <ul class="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
-        {categories.map(c => (
-          <li>
+          <div class="hero-ctas">
             <a
-              href={`/tags/${slugifyTag(c.name)}/`}
-              class="flex h-full flex-col items-center gap-1 rounded-md border border-border px-3 py-4 text-center hover:border-accent hover:text-accent transition"
+              href="https://www.mikecrm.com/XnSiQG4"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              class="btn-primary"
             >
-              <span class="text-2xl leading-none">{c.emoji}</span>
-              <span class="mt-1 text-sm font-medium">{c.name}</span>
-              <span class="w-full truncate text-xs text-foreground/60">{c.desc}</span>
+              🎒 Free Uni Match <span>→</span>
             </a>
-          </li>
-        ))}
-      </ul>
+            <a href="/posts/" class="btn-ghost">
+              📖 Browse Q&amp;A
+            </a>
+          </div>
+        </div>
+
+        <div class="postcards" aria-hidden="true">
+          <div class="pc pc-1">
+            <div class="pc-img pc-img-1">
+              <div class="pc-stamp">LDN</div>
+            </div>
+            <h4>London · Thames fog</h4>
+            <p>UCL, Imperial or KCL? Work the commute math out first.</p>
+            <div class="pc-meta">POSTED · 19 APR 2026</div>
+          </div>
+          <div class="pc pc-2">
+            <div class="pc-img pc-img-2">
+              <div class="pc-stamp">EDI</div>
+            </div>
+            <h4>Edinburgh · Stone city</h4>
+            <p>UoE halls vs Old Town flatshare — which one actually works?</p>
+            <div class="pc-meta">POSTED · 22 FEB 2026</div>
+          </div>
+          <div class="pc pc-3">
+            <div class="pc-img pc-img-3">
+              <div class="pc-stamp">MAN</div>
+            </div>
+            <h4>Manchester · Red brick</h4>
+            <p>UoM application: GPA floors and course-level entry bars.</p>
+            <div class="pc-meta">POSTED · 14 APR 2026</div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    {
-      featuredPosts.length > 0 && (
-        <section
-          id="featured"
-          class:list={[
-            "pt-12 pb-6",
-            { "border-b border-border": recentPosts.length > 0 },
-          ]}
-        >
-          <h2 class="text-2xl font-semibold tracking-wide">Featured Q&A</h2>
-          <ul>
-            {featuredPosts.map(data => (
-              <Card variant="h3" {...data} />
-            ))}
-          </ul>
-        </section>
-      )
-    }
+    <!-- GEAR / CATEGORIES -->
+    <section class="section">
+      <div class="section-head">
+        <div class="section-title">
+          <span class="kicker">Gear Patches · Categories</span>
+          <h2>Browse by <span class="hand">topic</span></h2>
+        </div>
+        <a class="section-see" href="/tags/">All tags →</a>
+      </div>
+      <div class="patches">
+        {patches.map(p => (
+          <a class={`patch patch-${p.tone}`} href={`/tags/${slugifyTag(p.tag)}/`}>
+            <span class="emoji">{p.emoji}</span>
+            <h4>{p.label}</h4>
+            <div class="count mono">{tagCount(p.tag)} posts</div>
+          </a>
+        ))}
+      </div>
+    </section>
 
-    {
-      recentPosts.length > 0 && (
-        <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">Recent Updates</h2>
-          <ul>
-            {recentPosts.map(
-              (data, index) =>
-                index < SITE.postPerIndex && <Card variant="h3" {...data} />
-            )}
-          </ul>
-        </section>
-      )
-    }
+    <!-- TRAIL SPOTLIGHT -->
+    <section class="section pt-10">
+      <div class="trail">
+        <div class="trail-inner">
+          <div class="trail-left">
+            <div class="kicker kicker-sun">THIS WEEK'S TRAIL · Visa route</div>
+            <h2>Student Visa 2026<br />From offer to landing, 30 weeks</h2>
+            <p>
+              Since the 2024 UKVI policy refresh, the Student Visa rhythm has been redefined — CAS issuance, ATAS clearance, IHS, TB screening, Biometrics, BRP pickup (now migrated to eVisa). Miss one checkpoint, lose two months. Walk the timeline week by week.
+            </p>
+            <a class="trail-cta" href="/tags/visa/">
+              Read the full route book <span>→</span>
+            </a>
+          </div>
+          <div class="trail-log">
+            <h5>
+              <span>⛺ Checkpoint Log</span>
+              <span class="mono" style="opacity:.6">0 / 6</span>
+            </h5>
+            <ul>
+              <li><span class="kp done">✓</span><span class="wk mono">WK 1-2</span><span><b>Offer received</b> · Unconditional / Conditional</span></li>
+              <li><span class="kp done">✓</span><span class="wk mono">WK 3-4</span><span><b>Tuition deposit</b> · Swap for CAS</span></li>
+              <li><span class="kp">3</span><span class="wk mono">WK 5-8</span><span><b>ATAS clearance</b> · STEM fields</span></li>
+              <li><span class="kp">4</span><span class="wk mono">WK 9-12</span><span><b>UKVI online submission</b> · Funds + IHS</span></li>
+              <li><span class="kp">5</span><span class="wk mono">WK 13-20</span><span><b>TB test + Biometrics</b> · VFS appointment</span></li>
+              <li><span class="kp">6</span><span class="wk mono">WK 21-30</span><span><b>Visa granted + entry</b> · BRP / eVisa</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="my-8 text-center">
-      <LinkButton href="/posts/">
-        View all Q&A
-        <IconArrowRight class="inline-block rtl:-rotate-180" />
-      </LinkButton>
-    </div>
+    <!-- LOGBOOK -->
+    <section class="section">
+      <div class="section-head">
+        <div class="section-title">
+          <span class="kicker">Q&amp;A Logbook · Recently updated</span>
+          <h2>Recent <span class="hand">updates</span></h2>
+        </div>
+        <a class="section-see" href="/posts/">View all {totalCount} posts →</a>
+      </div>
+      <div class="logbook">
+        <div class="logbook-head mono">
+          <span><span class="dot"></span>LIVE · {totalCount} Q&amp;A · UPDATED DAILY</span>
+          <span>// ED: Eleanor Whitfield</span>
+        </div>
+        {logbook.map(row => (
+          <a class="log-row" href={row.href}>
+            <span class="n mono">№ {row.n}</span>
+            <div class="log-title">
+              <h5>{row.title}</h5>
+              <div class="lr-sub">{row.sub}</div>
+            </div>
+            <span class={`cat cat-${row.cat.key}`}>{row.cat.emoji} {row.cat.label}</span>
+            <span class="when mono">📍 {row.when}</span>
+            <span class="arrow">→</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- G5 BASECAMPS -->
+    <section class="section">
+      <div class="section-head">
+        <div class="section-title">
+          <span class="kicker">Basecamps · G5 Universities</span>
+          <h2>G5 super-elite <span class="hand">unis</span></h2>
+        </div>
+        <a class="section-see" href="/tags/universities/">All Russell Group →</a>
+      </div>
+      <div class="schools">
+        {g5.map(s => (
+          <a class="sbox" href={s.href}>
+            <span class="flag mono">{s.flag}</span>
+            <div class="rank"><small>QS '26</small>{s.rank}</div>
+            <h4>{s.name}</h4>
+            <div class="en mono">{s.en}</div>
+            <div class="bits">
+              {s.bits.map(b => <span>{b}</span>)}
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- CAMPFIRE CTA -->
+    <section class="campfire">
+      <div class="cf">
+        <div class="cf-left">
+          <div class="cf-kicker">⛺ CAMPFIRE · Free consultation</div>
+          <h2>Not sure where to start?<br /><span class="sun">We'll walk with you.</span></h2>
+          <p>
+            Send your GPA, IELTS, budget and target field. Within 48 hours we return a personalised UK shortlist — Reach / Match / Safety brackets, Student Visa timeline, and an honest Graduate Route forecast.
+          </p>
+          <div class="cf-buttons">
+            <a
+              href="https://www.mikecrm.com/XnSiQG4"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              class="primary"
+            >
+              🎒 Free Uni Match <span>→</span>
+            </a>
+            <a href="/about/" class="ghost">
+              About eduUK
+            </a>
+          </div>
+        </div>
+        <div class="cf-right">
+          <div class="letter-card">
+            <div class="letter-stamp">2nd<br/>CLASS</div>
+            <div class="letter-header">
+              <div class="letter-line"></div>
+              <div class="letter-line"></div>
+              <div class="letter-line short"></div>
+            </div>
+            <div class="letter-body">
+              <div class="letter-line"></div>
+              <div class="letter-line"></div>
+              <div class="letter-line"></div>
+              <div class="letter-line short"></div>
+            </div>
+            <h5>Reply-by-email shortlist</h5>
+            <p>Turnaround: 48 hours · No phone calls</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
   <Footer />
 </Layout>
 
+<style>
+  /* EduUK Bodleian Copper · Homepage layout. Tokens come from global.css. */
+  main {
+    font-family: var(--font-app);
+    color: var(--ink);
+  }
+  .hand { font-family: var(--font-hand); font-weight: 700; }
+  .mono { font-family: var(--font-mono); }
+
+  /* HERO */
+  .hero { max-width: 1280px; margin: 10px auto 0; padding: 10px 28px 40px; position: relative; }
+  .hero-inner { display: grid; grid-template-columns: 1.35fr 1fr; gap: 48px; align-items: center; }
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--sun); color: var(--ink);
+    font-weight: 800; font-size: 12px; padding: 6px 14px;
+    border-radius: 999px; border: 1.5px solid var(--ink);
+    letter-spacing: 0.08em; text-transform: uppercase;
+  }
+  .hero-eyebrow::before { content: "📖"; font-size: 14px; }
+  .hero h1 {
+    font-size: clamp(44px, 6vw, 84px); font-weight: 900;
+    letter-spacing: -0.03em; line-height: 0.98;
+    margin: 18px 0 0; text-wrap: balance; color: var(--ink);
+  }
+  .hero h1 .maple { color: var(--maple); position: relative; display: inline-block; }
+  .hero h1 .maple::after {
+    content: ""; position: absolute; left: -4px; right: -4px; bottom: 8px;
+    height: 14px; background: var(--sun); z-index: -1;
+    opacity: 0.75; transform: rotate(-1deg);
+  }
+  .hero h1 .cv { font-family: var(--font-hand); font-weight: 700; color: var(--pine); font-size: 0.95em; }
+  .hero-sub {
+    font-size: 19px; color: var(--ink-2);
+    max-width: 52ch; margin: 22px 0 28px;
+    line-height: 1.55; text-wrap: pretty;
+  }
+  .hero-trail { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 28px; }
+  .tstep {
+    background: var(--card); border: 1.5px solid var(--ink); border-radius: 999px;
+    padding: 7px 14px; font-size: 13px; font-weight: 700;
+    display: inline-flex; align-items: center; gap: 6px;
+    box-shadow: 2px 2px 0 var(--ink);
+  }
+  .tstep .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .tstep.c1 .dot { background: var(--maple); }
+  .tstep.c2 .dot { background: var(--pine); }
+  .tstep.c3 .dot { background: var(--sun); }
+  .tstep.c4 .dot { background: var(--sky); }
+  .tsep { font-size: 16px; color: var(--ink-3); }
+
+  .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn-primary {
+    background: var(--maple); color: var(--cream);
+    border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink);
+    font-family: inherit; font-weight: 800; font-size: 15px;
+    padding: 14px 22px; border-radius: 12px; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 8px;
+    transition: transform 0.15s; text-decoration: none;
+  }
+  .btn-primary:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--ink); }
+  .btn-ghost {
+    background: var(--cream); color: var(--ink);
+    border: 2px solid var(--ink); font-family: inherit;
+    font-weight: 800; font-size: 15px; padding: 14px 22px;
+    border-radius: 12px; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
+  }
+  .btn-ghost:hover { background: var(--card); }
+
+  /* postcards */
+  .postcards { position: relative; height: 460px; }
+  .pc {
+    position: absolute; background: var(--card);
+    border: 2px solid var(--ink); border-radius: 14px;
+    box-shadow: 5px 5px 0 var(--ink); padding: 18px;
+    width: 280px; display: flex; flex-direction: column; gap: 10px;
+  }
+  .pc-1 { top: 10px; left: 40px; transform: rotate(-4deg); }
+  .pc-2 { top: 80px; right: 0; transform: rotate(3deg); width: 260px; }
+  .pc-3 { bottom: 20px; left: 10px; transform: rotate(-1deg); width: 300px; }
+  .pc-stamp {
+    position: absolute; top: 12px; right: 12px;
+    width: 44px; height: 54px;
+    background: repeating-linear-gradient(45deg, var(--maple) 0 4px, #8a3a1c 4px 8px);
+    border: 1.5px solid var(--ink); border-radius: 3px;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--cream); font-weight: 900; font-size: 11px;
+    letter-spacing: 0.05em; transform: rotate(4deg);
+  }
+  .pc-img { height: 110px; border-radius: 8px; border: 1.5px solid var(--ink); position: relative; overflow: hidden; }
+  .pc-img-1 { background: linear-gradient(180deg, #e4d8b0 0%, #c89b3f 45%, var(--pine) 45%, var(--pine-2) 100%); }
+  .pc-img-2 { background: linear-gradient(180deg, #d3ddea 0%, #8bb9d4 50%, #4d7a8f 50%, #2f5268 100%); }
+  .pc-img-3 { background: linear-gradient(180deg, #e8d5b7 0%, #c89b6a 40%, var(--maple) 40%, var(--maple-2) 100%); }
+  .pc h4 { font-size: 16px; font-weight: 900; margin: 0; line-height: 1.2; letter-spacing: -0.015em; color: var(--ink); }
+  .pc p { font-size: 13px; color: var(--ink-2); margin: 0; line-height: 1.5; }
+  .pc .pc-meta { font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); letter-spacing: 0.05em; }
+
+  /* SECTION */
+  .section { max-width: 1280px; margin: 0 auto; padding: 56px 28px; }
+  .section.pt-10 { padding-top: 10px; }
+  .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; margin-bottom: 30px; }
+  .section-title { display: flex; flex-direction: column; gap: 4px; }
+  .kicker {
+    font-size: 12px; letter-spacing: 0.3em;
+    color: var(--maple); font-weight: 800;
+    text-transform: uppercase;
+    display: inline-flex; align-items: center; gap: 8px;
+  }
+  .kicker::before { content: "✦"; color: var(--sun); font-size: 16px; }
+  .kicker-sun { color: var(--sun); }
+  .kicker-sun::before { color: var(--sun); }
+  .section-title h2 {
+    font-size: 40px; font-weight: 900; letter-spacing: -0.03em;
+    line-height: 1; margin: 0; color: var(--ink);
+  }
+  .section-title h2 .hand {
+    font-size: 54px; color: var(--pine); margin-left: 8px;
+    display: inline-block; transform: rotate(-2deg);
+  }
+  .section-see {
+    font-size: 14px; font-weight: 700; color: var(--ink);
+    border-bottom: 2px solid var(--maple); padding-bottom: 2px;
+    text-decoration: none; white-space: nowrap;
+  }
+
+  /* PATCHES */
+  .patches { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; }
+  .patch {
+    background: var(--card); border: 2px solid var(--ink);
+    border-radius: 16px; padding: 18px 14px; text-align: center;
+    box-shadow: 3px 3px 0 var(--ink); cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+    position: relative; overflow: hidden;
+    text-decoration: none; color: inherit;
+  }
+  .patch::before {
+    content: ""; position: absolute; top: 6px; left: 6px; right: 6px; bottom: 6px;
+    border: 1.5px dashed currentColor; border-radius: 12px;
+    opacity: 0.35; pointer-events: none;
+  }
+  .patch:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--ink); }
+  .patch .emoji { font-size: 32px; display: block; margin-bottom: 6px; }
+  .patch h4 { font-size: 15px; font-weight: 900; margin: 0; letter-spacing: -0.01em; color: var(--ink); }
+  .patch .count { font-size: 11px; color: var(--ink-3); margin-top: 4px; font-weight: 500; }
+  .patch-maple   { color: var(--maple); }
+  .patch-pine    { color: var(--pine); }
+  .patch-bark    { color: var(--bark); }
+  .patch-sky     { color: #2a5d85; }
+  .patch-sun     { color: #7f6422; }
+  .patch-maple-2 { color: var(--maple-2); }
+
+  /* TRAIL SPOTLIGHT */
+  .trail {
+    background: var(--pine); color: var(--cream);
+    border-radius: 28px; padding: 48px;
+    position: relative; overflow: hidden;
+    border: 2.5px solid var(--ink); box-shadow: 8px 8px 0 var(--ink);
+  }
+  .trail::before {
+    content: ""; position: absolute; inset: 0;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'><path d='M40 340 Q 180 260 280 280 T 520 180' stroke='%23fff' stroke-width='2' fill='none' stroke-dasharray='6 6' opacity='0.25'/><circle cx='40' cy='340' r='6' fill='%23b08932'/><circle cx='280' cy='280' r='6' fill='%23b08932'/><circle cx='520' cy='180' r='6' fill='%23b08932'/></svg>");
+    background-repeat: no-repeat; background-size: cover;
+    opacity: 0.85; pointer-events: none;
+  }
+  .trail-inner { position: relative; display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: start; }
+  .trail-left .kicker { color: var(--sun); }
+  .trail-left .kicker::before { color: var(--sun); }
+  .trail h2 {
+    font-size: clamp(28px, 3.2vw, 48px); font-weight: 900;
+    letter-spacing: -0.025em; line-height: 1.05;
+    margin: 10px 0 14px; color: var(--cream);
+  }
+  .trail p { font-size: 16px; color: #e0d4b2; line-height: 1.65; margin: 0 0 20px; max-width: 52ch; }
+  .trail-cta {
+    display: inline-flex; gap: 10px; align-items: center;
+    background: var(--sun); color: var(--ink); font-weight: 800;
+    padding: 13px 22px; border-radius: 999px;
+    border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink);
+    font-size: 15px; cursor: pointer; text-decoration: none;
+  }
+  .trail-cta:hover { background: #c79b48; }
+
+  .trail-log {
+    background: var(--cream); color: var(--ink);
+    border-radius: 16px; padding: 22px;
+    border: 2px solid var(--ink);
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.25);
+  }
+  .trail-log h5 {
+    font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--maple); font-weight: 800; margin: 0 0 12px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .trail-log ul { list-style: none; margin: 0; padding: 0; }
+  .trail-log li {
+    padding: 10px 0; border-bottom: 1px dashed rgba(0, 0, 0, 0.13);
+    display: grid; grid-template-columns: 28px 70px 1fr; gap: 10px;
+    align-items: center; font-size: 13.5px;
+  }
+  .trail-log li:last-child { border-bottom: none; }
+  .trail-log .kp {
+    width: 22px; height: 22px; border-radius: 50%;
+    background: var(--cream); border: 2px solid var(--pine);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 900; color: var(--pine);
+  }
+  .trail-log .kp.done { background: var(--pine); color: var(--cream); }
+  .trail-log .wk { font-weight: 500; color: var(--ink-3); font-size: 11px; letter-spacing: 0.05em; }
+  .trail-log b { font-weight: 800; }
+
+  /* LOGBOOK */
+  .logbook {
+    background: var(--card); border-radius: 20px;
+    border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink);
+    overflow: hidden;
+  }
+  .logbook-head {
+    background: var(--ink); color: var(--cream);
+    padding: 14px 22px; display: flex; justify-content: space-between;
+    align-items: center; letter-spacing: 0.1em; font-size: 12px;
+  }
+  .logbook-head .dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    background: var(--sun); display: inline-block; margin-right: 8px;
+    animation: tg-pulse 2s infinite;
+  }
+  @keyframes tg-pulse { 50% { opacity: 0.5; } }
+  .log-row {
+    display: grid;
+    grid-template-columns: 60px 1fr 120px 120px 30px;
+    gap: 18px; padding: 16px 22px; align-items: center;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.08);
+    cursor: pointer; transition: background 0.15s;
+    color: inherit; text-decoration: none;
+  }
+  .log-row:hover { background: var(--cream); }
+  .log-row:last-child { border-bottom: none; }
+  .log-row .n { color: var(--ink-3); font-size: 12px; letter-spacing: 0.05em; }
+  .log-row h5 {
+    font-size: 16px; font-weight: 800; margin: 0;
+    letter-spacing: -0.01em; line-height: 1.3; color: var(--ink);
+  }
+  .log-row .lr-sub {
+    font-size: 13px; color: var(--ink-2); margin-top: 4px;
+    display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .log-row .cat {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12px; font-weight: 700;
+    padding: 5px 10px; border-radius: 999px;
+    white-space: nowrap; justify-self: start;
+  }
+  .cat-visa  { background: #f4dcc5; color: var(--maple-2); }
+  .cat-uni   { background: #d8dfe9; color: var(--pine-2); }
+  .cat-life  { background: #f0e4c4; color: var(--bark); }
+  .cat-house { background: #dfeaf3; color: #2a5d85; }
+  .cat-job   { background: #ecdff5; color: #5a3b86; }
+  .cat-other { background: var(--cream); color: var(--ink-2); }
+  .log-row .when { font-size: 12px; color: var(--ink-3); letter-spacing: 0.03em; white-space: nowrap; }
+  .log-row .arrow { color: var(--ink-3); font-size: 18px; font-weight: 600; text-align: right; }
+
+  /* SCHOOLS */
+  .schools { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .sbox {
+    background: var(--card); border: 2px solid var(--ink);
+    border-radius: 16px; padding: 20px;
+    position: relative; box-shadow: 3px 3px 0 var(--ink);
+    transition: transform 0.15s, box-shadow 0.15s;
+    cursor: pointer; text-decoration: none; color: inherit; display: block;
+  }
+  .sbox:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--ink); }
+  .sbox .flag {
+    position: absolute; top: 16px; right: 16px;
+    background: var(--maple); color: var(--cream);
+    font-size: 11px; font-weight: 700;
+    padding: 3px 8px; border-radius: 4px; letter-spacing: 0.05em;
+  }
+  .sbox .rank { font-size: 40px; font-weight: 900; color: var(--pine); letter-spacing: -0.03em; line-height: 0.9; }
+  .sbox .rank small {
+    display: block; font-size: 10px; color: var(--ink-3);
+    font-weight: 600; letter-spacing: 0.15em;
+    text-transform: uppercase; margin-bottom: 4px;
+  }
+  .sbox h4 { font-size: 20px; font-weight: 900; margin: 10px 0 4px; letter-spacing: -0.02em; color: var(--ink); }
+  .sbox .en { font-size: 11px; color: var(--ink-3); letter-spacing: 0.03em; }
+  .sbox .bits { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 14px; }
+  .sbox .bits span {
+    font-size: 11px; font-weight: 700;
+    padding: 4px 9px; border-radius: 999px;
+    background: var(--cream); border: 1.5px solid var(--ink);
+  }
+
+  /* CAMPFIRE */
+  .campfire { max-width: 1280px; margin: 40px auto 0; padding: 0 28px; }
+  .cf {
+    background: var(--maple); color: var(--cream);
+    border-radius: 24px; border: 2.5px solid var(--ink);
+    box-shadow: 8px 8px 0 var(--ink); padding: 40px;
+    display: grid; grid-template-columns: 1.3fr 1fr;
+    gap: 36px; align-items: center; position: relative; overflow: hidden;
+  }
+  .cf::before {
+    content: ""; position: absolute; right: -40px; top: -40px;
+    width: 260px; height: 260px; border-radius: 50%;
+    background: radial-gradient(circle, var(--sun) 0%, transparent 70%);
+    opacity: 0.7;
+  }
+  .cf-left { position: relative; z-index: 1; }
+  .cf-kicker {
+    font-size: 12px; letter-spacing: 0.3em;
+    color: var(--sun); font-weight: 800;
+    text-transform: uppercase; margin-bottom: 8px;
+  }
+  .cf h2 {
+    font-size: clamp(28px, 3.4vw, 52px); font-weight: 900;
+    letter-spacing: -0.03em; line-height: 1;
+    margin: 0 0 14px; color: var(--cream);
+  }
+  .cf h2 .sun { color: var(--sun); }
+  .cf p { font-size: 16px; color: #f0e4c4; margin: 0 0 22px; line-height: 1.55; }
+  .cf-buttons { display: flex; gap: 14px; flex-wrap: wrap; }
+  .cf-buttons .primary {
+    background: var(--cream); color: var(--ink);
+    border: 2px solid var(--ink); padding: 14px 24px;
+    font-family: inherit; font-weight: 800; font-size: 15px;
+    border-radius: 12px; box-shadow: 4px 4px 0 var(--ink);
+    cursor: pointer; display: inline-flex; align-items: center; gap: 8px;
+    text-decoration: none;
+  }
+  .cf-buttons .primary:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--ink); }
+  .cf-buttons .ghost {
+    background: transparent; color: var(--cream);
+    border: 2px solid var(--cream); padding: 14px 24px;
+    font-family: inherit; font-weight: 800; font-size: 15px;
+    border-radius: 12px; cursor: pointer; text-decoration: none;
+  }
+  .cf-right { position: relative; z-index: 1; }
+  .letter-card {
+    background: var(--cream); color: var(--ink);
+    border: 2px solid var(--ink); border-radius: 16px;
+    padding: 26px 22px 20px; text-align: center;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.25);
+    position: relative;
+  }
+  .letter-stamp {
+    position: absolute; top: -10px; right: 18px;
+    background: var(--maple); color: var(--cream);
+    border: 1.5px solid var(--ink); border-radius: 3px;
+    font-family: var(--font-mono); font-size: 9px; font-weight: 800;
+    line-height: 1.15; padding: 4px 6px; transform: rotate(8deg);
+    letter-spacing: 0.05em;
+  }
+  .letter-header, .letter-body {
+    display: flex; flex-direction: column; gap: 6px;
+    margin: 0 auto; max-width: 200px;
+  }
+  .letter-header { margin-bottom: 14px; }
+  .letter-body { margin-bottom: 16px; }
+  .letter-line {
+    height: 6px; background: var(--rule); border-radius: 3px;
+  }
+  .letter-line.short { width: 60%; }
+  .letter-card h5 { font-size: 15px; font-weight: 900; margin: 0 0 4px; color: var(--ink); }
+  .letter-card p { color: var(--ink-2); font-size: 12px; margin: 0; }
+
+  /* Responsive */
+  @media (max-width: 1000px) {
+    .hero-inner { grid-template-columns: 1fr; }
+    .postcards { height: auto; display: flex; flex-direction: column; gap: 14px; }
+    .pc { position: static; transform: none !important; width: auto; }
+    .patches { grid-template-columns: repeat(3, 1fr); }
+    .trail-inner { grid-template-columns: 1fr; }
+    .cf { grid-template-columns: 1fr; padding: 28px; }
+    .schools { grid-template-columns: repeat(2, 1fr); }
+    .log-row { grid-template-columns: 1fr; gap: 6px; }
+    .log-row .n { font-size: 11px; }
+    .log-row .arrow { display: none; }
+    .section { padding: 40px 20px; }
+    .trail { padding: 28px; }
+  }
+  @media (max-width: 640px) {
+    .patches { grid-template-columns: repeat(2, 1fr); }
+    .schools { grid-template-columns: 1fr; }
+    .section-title h2 { font-size: 30px; }
+    .section-title h2 .hand { font-size: 40px; }
+  }
+
+  /* Dark-mode tweaks */
+  :global([data-theme="dark"]) .tstep {
+    background: var(--card); color: var(--ink); border-color: var(--ink-3);
+    box-shadow: 2px 2px 0 rgba(255, 255, 255, 0.15);
+  }
+  :global([data-theme="dark"]) .btn-ghost { background: var(--card); color: var(--ink); border-color: var(--ink-3); }
+  :global([data-theme="dark"]) .pc { background: var(--card); color: var(--ink); border-color: var(--ink-3); box-shadow: 5px 5px 0 rgba(255,255,255,0.12); }
+  :global([data-theme="dark"]) .patch { background: var(--card); color: var(--ink); border-color: var(--ink-3); box-shadow: 3px 3px 0 rgba(255,255,255,0.12); }
+  :global([data-theme="dark"]) .trail-log { background: var(--card); border-color: var(--ink-3); }
+  :global([data-theme="dark"]) .logbook { background: var(--card); border-color: var(--ink-3); box-shadow: 4px 4px 0 rgba(255,255,255,0.12); }
+  :global([data-theme="dark"]) .log-row:hover { background: rgba(255,255,255,0.04); }
+  :global([data-theme="dark"]) .sbox { background: var(--card); border-color: var(--ink-3); box-shadow: 3px 3px 0 rgba(255,255,255,0.12); }
+  :global([data-theme="dark"]) .sbox .bits span { background: rgba(255,255,255,0.04); border-color: var(--ink-3); }
+  :global([data-theme="dark"]) .hero h1 .maple::after { opacity: 0.55; }
+  :global([data-theme="dark"]) .letter-card { background: var(--card); border-color: var(--ink-3); }
+  :global([data-theme="dark"]) .letter-line { background: rgba(255,255,255,0.1); }
+</style>
+
 <script>
   document.addEventListener("astro:page-load", () => {
-    const indexLayout = (document.querySelector("#main-content") as HTMLElement)
-      ?.dataset?.layout;
-    if (indexLayout) {
+    const el = document.querySelector("#main-content") as HTMLElement | null;
+    if (el?.dataset?.layout === "index") {
       sessionStorage.setItem("backUrl", "/");
     }
   });
