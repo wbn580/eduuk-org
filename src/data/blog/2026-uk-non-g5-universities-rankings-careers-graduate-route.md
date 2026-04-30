@@ -11,7 +11,7 @@ tags:
   - Non-G5
   - Russell Group
   - Graduate Route
-  - 2026
+  - "2026"
 description: "A comprehensive 2026 guide to UK non-G5 universities: QS rankings, tuition fees, graduate employment rates, and how Graduate Route visa works for international students at these institutions."
 ---
 
