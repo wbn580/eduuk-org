@@ -11,7 +11,7 @@ tags:
   - UCAS
   - international students
   - student visa
-  - 2026
+  - "2026"
 description: "Still without a UK university offer in April 2026? UCAS Extra, Clearing, and direct September entry applications are all still in play. Here's what international students need to know about each route and the visa timeline that fits."
 ---
 
