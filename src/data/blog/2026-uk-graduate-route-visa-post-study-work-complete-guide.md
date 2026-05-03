@@ -1,5 +1,5 @@
 ---
-title: UK Graduate Route Visa 2026: What It Is, Who Qualifies, and How to Apply After You Graduate
+title: "UK Graduate Route Visa 2026: What It Is, Who Qualifies, and How to Apply After You Graduate"
 description: The UK Graduate Route (post-study work visa) explained for 2026 — eligibility criteria, how long you can stay, job search rights, switching to a Skilled Worker visa, and what the current political debate means for international graduates.
 pubDatetime: 2026-05-01T13:08:49Z
 modDatetime: 2026-05-01T13:17:22Z
