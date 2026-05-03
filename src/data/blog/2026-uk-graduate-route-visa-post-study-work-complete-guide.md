@@ -13,7 +13,7 @@ tags:
   - study in uk
   - uk immigration
   - international students
-  - 2026
+  - '2026'
 ---
 
 The UK Graduate Route visa — commonly called the post-study work visa — lets international graduates stay in the UK to work or look for work after completing their degree. As of 2026, the visa remains in place despite recurring political debate about its future. This guide explains exactly how it works, who qualifies, and what you should know before relying on it as part of your UK study plan.
