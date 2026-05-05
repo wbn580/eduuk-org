@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation", "Finance"]
 description: "Full-time students can claim council tax exemption if all occupants are students. Learn eligibility, how to apply, and what happens if you're liable."
+ogImage: "https://img.ulec.com.cn/realestate/finance-money-business-1777875791.webp"
 ---
+
+<!-- R2_IMAGE: finance-money-business -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/realestate/finance-money-business-1777875791.webp"
+    alt="在有限追索权借款安排下，SMSF 房产的注意事项"
+    width="1200"
+    height="1063"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/realestate/finance-money-business-1777875791.webp",
+  "name": "在有限追索权借款安排下，SMSF 房产的注意事项",
+  "description": "在有限追索权借款安排下，SMSF 房产的注意事项 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "1063",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 If you're a full-time student and everyone living in your property is also a full-time student, your household is exempt from council tax. This exemption can save £1,200–£2,000 per year per property. However, exemption is not automatic: you must apply and prove your student status.
 

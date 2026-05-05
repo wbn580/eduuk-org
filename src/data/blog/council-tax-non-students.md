@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Admin"]
 description: "Council Tax explained: student exemptions, how to claim them, and what happens if you fall outside the exemption (you might owe hundreds)."
+ogImage: "https://img.ulec.com.cn/realestate/finance-money-business-1777875791.webp"
 ---
+
+<!-- R2_IMAGE: finance-money-business -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/realestate/finance-money-business-1777875791.webp"
+    alt="在有限追索权借款安排下，SMSF 房产的注意事项"
+    width="1200"
+    height="1063"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/realestate/finance-money-business-1777875791.webp",
+  "name": "在有限追索权借款安排下，SMSF 房产的注意事项",
+  "description": "在有限追索权借款安排下，SMSF 房产的注意事项 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "1063",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Council Tax is an annual local property tax (£800–£2,000/year depending on your property band and location). Full-time students are exempt. Part-time students, postgraduates, graduates working part-time, and those who've left university are NOT exempt and must pay if they're the "liable person" (property owner or tenant). If your exemption expires, you can owe £2,000+ for back-years. Claim exemption immediately when you move in.
 

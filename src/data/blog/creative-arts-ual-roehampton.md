@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Courses"]
 description: "Explore UK creative arts programmes at UAL, Roehampton, and specialist institutions. Understand portfolio requirements, industry connections, and diverse career outcomes."
+ogImage: "https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp"
 ---
+
+<!-- R2_IMAGE: university-campus-education-student -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp"
+    alt="数据说话：2026年英国杜伦大学排名、学费与就业全面解读"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp",
+  "name": "数据说话：2026年英国杜伦大学排名、学费与就业全面解读",
+  "description": "数据说话：2026年英国杜伦大学排名、学费与就业全面解读 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Creative arts degrees in the UK—encompassing fine art, graphic design, product design, fashion, illustration, and performance—offer a practical, portfolio-driven pathway distinct from academic humanities. Unlike other degrees driven by exam performance, creative arts outcomes depend almost entirely on portfolio strength, industry networking, and entrepreneurial drive.
 

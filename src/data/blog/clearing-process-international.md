@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "Clearing is a secondary UK admissions system where universities release unfilled places on results day. International students can access clearing, but face specific challenges. Learn how the process works and whether it's viable for you."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 UCAS Clearing is the UK's secondary admissions system. When universities don't fill their student intake through the primary UCAS cycle (because they overestimated demand or set demanding entry conditions), they release remaining places on results day. International students can access clearing, but the process is more complex for non-UK applicants than for domestic students. Understanding whether clearing is a viable option for you requires knowing how the system works, its timeline, and specific barriers you'll face.
 

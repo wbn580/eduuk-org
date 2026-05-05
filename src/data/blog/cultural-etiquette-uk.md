@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Practical"]
 description: "British directness is rare; indirectness is the norm. Learn how Brits apologize (constantly), queue (religiously), and socialize (reserved until drunk)."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 British culture prioritizes politeness, understatement, and self-deprecation. Brits rarely say exactly what they mean; "that's interesting" usually means "I disagree." Queuing is sacred (cutting the line is a cardinal sin). Conversations avoid money, politics, and religion. Drinking culture is significant but varies by region. Understanding these unwritten rules prevents awkwardness and helps you integrate. International students often find British reserve cold; it thaws once you're in a group, especially with alcohol.
 

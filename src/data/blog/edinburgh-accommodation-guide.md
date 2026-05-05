@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "Edinburgh student housing guide: Southside, Newington, Leith. Rent ranges, neighborhoods, and transport links for international students."
+ogImage: "https://img.ulec.com.cn/edu/edinburgh-castle-hill-scotland-2026-5022x1671.jpg"
 ---
+
+<!-- R2_IMAGE: edinburgh-castle-hill-scotland -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/edinburgh-castle-hill-scotland-2026-5022x1671.jpg"
+    alt="爱丁堡城堡 - 英国爱丁堡地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/edinburgh-castle-hill-scotland-2026-5022x1671.jpg",
+  "name": "爱丁堡城堡 - 英国爱丁堡地标",
+  "description": "爱丁堡城堡 - 英国爱丁堡地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Edinburgh is Scotland's primary student city, home to the University of Edinburgh (35,000+ students), Heriot-Watt, and Napier University. Student neighborhoods cluster in three main areas: the Southside (near university campus), Leith (waterfront, regenerating), and Newington (quieter, residential). Rent averages £90–£140/week, cheaper than London and Bristol but slightly higher than Manchester.
 

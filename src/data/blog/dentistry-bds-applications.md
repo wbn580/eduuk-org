@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Courses"]
 description: "Explore UK dental programmes (BDS). Understand entry routes, GDC accreditation, clinical training, and career outcomes for international dentists."
+ogImage: "https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp"
 ---
+
+<!-- R2_IMAGE: university-campus-education-student -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp"
+    alt="数据说话：2026年英国杜伦大学排名、学费与就业全面解读"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp",
+  "name": "数据说话：2026年英国杜伦大学排名、学费与就业全面解读",
+  "description": "数据说话：2026年英国杜伦大学排名、学费与就业全面解读 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Dentistry in the UK is a highly selective undergraduate qualification, structured similarly to medicine but slightly more accessible for international students. The BDS (Bachelor of Dental Surgery) is a three-year degree (vs. five for medicine) and carries strong global recognition. However, international applicants face stringent regulatory and visa hurdles, and the return on investment is longer than other STEM degrees.
 
