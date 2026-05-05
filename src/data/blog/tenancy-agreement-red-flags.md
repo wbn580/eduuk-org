@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "Spotting illegal clauses in AST tenancy agreements. How to protect yourself from unfair terms, excessive deductions, and landlord breaches."
+ogImage: "https://img.ulec.com.cn/edu/tenancy-agreement-flags-watch-1777968702.webp"
 ---
+
+<!-- R2_IMAGE: tenancy-agreement-flags-watch -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tenancy-agreement-flags-watch-1777968702.webp"
+    alt="Tenancy Agreement Red Flags: What to Watch For"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tenancy-agreement-flags-watch-1777968702.webp",
+  "name": "Tenancy Agreement Red Flags: What to Watch For",
+  "description": "Tenancy Agreement Red Flags: What to Watch For — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 An Assured Shorthold Tenancy (AST) is the standard rental contract for UK student housing. While most landlords use standard templates, some insert illegal or unfair clauses designed to protect their interests at your expense. Knowing what to reject—and what you can do if you've already signed—puts you in control.
 
