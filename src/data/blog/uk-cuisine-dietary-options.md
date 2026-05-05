@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Practical"]
 description: "Traditional British food is bland for many; find your cuisine: Indian, Chinese, Middle Eastern, and Eastern European communities thrive in UK cities. Budget options available."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Traditional British food (beans on toast, fish & chips, Sunday roast) is filling but monotonous for many international students. The good news: the UK is multicultural. Most cities have thriving Indian, Chinese, Thai, Middle Eastern, Polish, and African communities with affordable restaurants and shops. London has nearly every global cuisine; smaller cities have strong Indian and Chinese presence. You can eat familiarly for £4–8 per meal at local restaurants, or cook at home using supermarket or specialist shop ingredients. Budget £40–60/week if cooking; £100–150 if eating out 3–4x/week.
 
