@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Visa"]
 description: "What is the Immigration Health Surcharge, how much you pay, what NHS care is covered, refund eligibility, and payment methods for Student Route visas."
+ogImage: "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
 ---
+
+<!-- R2_IMAGE: visa-immigration-passport -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
+    alt="维多利亚州888A – 墨尔本投资移民"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp",
+  "name": "维多利亚州888A – 墨尔本投资移民",
+  "description": "维多利亚州888A – 墨尔本投资移民 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The Immigration Health Surcharge (IHS) is a mandatory fee that gives you access to NHS (National Health Service) care during your stay in the UK. You must pay the IHS as part of your Student Route visa application; without payment, your application cannot proceed. The fee is non-refundable except in limited circumstances (visa refusal, early departure for specific reasons).
 

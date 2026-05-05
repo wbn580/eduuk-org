@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Visa"]
 description: "What is the Graduate Route, how long you can work post-graduation, how to apply, and who qualifies for the 2-year post-study work visa."
+ogImage: "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
 ---
+
+<!-- R2_IMAGE: visa-immigration-passport -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
+    alt="维多利亚州888A – 墨尔本投资移民"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp",
+  "name": "维多利亚州888A – 墨尔本投资移民",
+  "description": "维多利亚州888A – 墨尔本投资移民 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 After completing your degree, the **Graduate Route** (also called Post-Study Work, or PSW) allows you to remain in the UK and work without a job offer. You can work in any role, including self-employment, for up to two years after a bachelor's or master's degree, or three years after a PhD. This is your main pathway to start a career in the UK before transitioning to the Skilled Worker visa or leaving the country.
 

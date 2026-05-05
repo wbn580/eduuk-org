@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "The G5 are Britain's most selective universities, representing the elite tier of UK higher education. Learn what defines them, how they differ, and what competition looks like for international students."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The G5—Oxford, Cambridge, Imperial College London, UCL, and the London School of Economics—represent the most selective tier of UK higher education. Together, they admit roughly 15–20% of applicants across undergraduate programmes, making offers among the hardest to secure in the world. For international students, understanding their individual strengths, application timelines, and academic thresholds is essential.
 

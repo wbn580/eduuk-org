@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "Both London STEM powerhouses rank globally, but Imperial focuses exclusively on science, technology, engineering, and medicine, while UCL offers broader disciplinary range. Understand the strategic differences and admission competitiveness."
+ogImage: "https://img.ulec.com.cn/edu/london-uk-university-campus-education-student-1777879403.webp"
 ---
+
+<!-- R2_IMAGE: london-uk-university-campus-education-student -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/london-uk-university-campus-education-student-1777879403.webp"
+    alt="英国UCL伦敦大学学院：本科 vs 硕士 vs 预科，三条路径全比较"
+    width="867"
+    height="650"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/london-uk-university-campus-education-student-1777879403.webp",
+  "name": "英国UCL伦敦大学学院：本科 vs 硕士 vs 预科，三条路径全比较",
+  "description": "英国UCL伦敦大学学院：本科 vs 硕士 vs 预科，三条路径全比较 — 配图来源：免费商用图库",
+  "width": "867",
+  "height": "650",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Imperial College London and UCL sit atop UK STEM rankings, yet serve different student profiles. Imperial is monofocused on science and engineering; UCL is a broad research university where STEM is one cluster among many. For international students committed to physics, engineering, or computer science, this distinction shapes both the application landscape and your student experience fundamentally.
 

@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Money"]
 description: "Feed yourself affordably: supermarket chains ranked by price, meal planning on a budget, and how to avoid expensive food habits that drain £15–20/week."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 UK groceries cost £40–60/week for a student buying budget brands (Tesco Value, Asda Smart Price, Sainsbury's Basics) and cooking at home. Eating out or buying meal kits adds £20–40/week. Knowing which supermarket to use, meal planning, and buying own-brand products save 30–50% versus eating out or buying branded products. Most students can eat well for £30–50/week with discipline.
 
