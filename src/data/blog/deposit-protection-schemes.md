@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "Essential guide to TDS, DPS, and MyDeposits. How deposit protection works, what deductions are legal, and how to reclaim your money if disputes arise."
+ogImage: "https://img.ulec.com.cn/edu/deposit-protection-schemes-protect-1777969416.webp"
 ---
+
+<!-- R2_IMAGE: deposit-protection-schemes-protect -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/deposit-protection-schemes-protect-1777969416.webp"
+    alt="Deposit Protection Schemes: How to Protect Your Tenancy Deposit"
+    width="940"
+    height="551"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/deposit-protection-schemes-protect-1777969416.webp",
+  "name": "Deposit Protection Schemes: How to Protect Your Tenancy Deposit",
+  "description": "Deposit Protection Schemes: How to Protect Your Tenancy Deposit — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "551",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 UK law mandates that any tenancy deposit paid must be protected within 30 days under one of three statutory schemes: The Deposit Protection Service (TDS), DPS, or MyDeposits. Non-compliance—or failure to issue prescribed information—gives you a legal claim to recover 1–3 times the deposit amount, even if the landlord later protects it.
 
