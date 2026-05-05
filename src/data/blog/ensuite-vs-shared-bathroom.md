@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "Ensuite vs. shared bathroom: cost difference, privacy trade-offs, managing shared spaces, and what students prefer. Practical comparison guide."
+ogImage: "https://img.ulec.com.cn/edu/ensuite-shared-bathroom-costs-1777970226.webp"
 ---
+
+<!-- R2_IMAGE: ensuite-shared-bathroom-costs -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/ensuite-shared-bathroom-costs-1777970226.webp"
+    alt="Ensuite vs. Shared Bathroom: Costs, Privacy, and Student Preference"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/ensuite-shared-bathroom-costs-1777970226.webp",
+  "name": "Ensuite vs. Shared Bathroom: Costs, Privacy, and Student Preference",
+  "description": "Ensuite vs. Shared Bathroom: Costs, Privacy, and Student Preference — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Ensuite bedrooms (private attached bathroom) cost 20–40% more than rooms with shared bathroom facilities. The premium buys privacy and convenience, but shared bathrooms reduce costs and foster social connection. Understanding the trade-offs helps you decide based on budget, personality, and priorities.
 
