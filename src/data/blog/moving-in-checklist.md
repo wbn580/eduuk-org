@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "Essential move-in checklist: inventory photos, meter readings, damage documentation, utilities setup, and proof for deposit disputes later."
+ogImage: "https://img.ulec.com.cn/edu/moving-checklist-protecting-yourself-1777970238.webp"
 ---
+
+<!-- R2_IMAGE: moving-checklist-protecting-yourself -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/moving-checklist-protecting-yourself-1777970238.webp"
+    alt="Moving Day Checklist: Protecting Yourself from Day One"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/moving-checklist-protecting-yourself-1777970238.webp",
+  "name": "Moving Day Checklist: Protecting Yourself from Day One",
+  "description": "Moving Day Checklist: Protecting Yourself from Day One — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Your first hours in a new rental property are critical. Documentation you gather on move-in day protects you against false damage claims at checkout. A single photograph of a broken window or stain on carpet can save you £300–£1,000 in deposit deductions. Creating a detailed inventory and condition report is the best investment you can make as a renter.
 
