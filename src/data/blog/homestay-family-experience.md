@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "Homestay guide: costs, family relationships, house rules, conflicts, and when it's the right choice for international students."
+ogImage: "https://img.ulec.com.cn/edu/homestay-accommodation-students-pros-1777968638.webp"
 ---
+
+<!-- R2_IMAGE: homestay-accommodation-students-pros -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/homestay-accommodation-students-pros-1777968638.webp"
+    alt="Homestay Accommodation for Students: Pros, Cons, and Making It Work"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/homestay-accommodation-students-pros-1777968638.webp",
+  "name": "Homestay Accommodation for Students: Pros, Cons, and Making It Work",
+  "description": "Homestay Accommodation for Students: Pros, Cons, and Making It Work — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Homestay (living with a local host family) is an alternative to halls or flat shares, offering cultural immersion, built-in support, and sometimes lower costs. However, it requires navigating family dynamics, house rules, and shared spaces. For some international students, homestay is ideal; for others, it's isolating. Understanding the reality helps you decide.
 
