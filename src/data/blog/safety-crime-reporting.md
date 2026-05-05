@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Safety"]
 description: "UK crime rates by area, common student crimes (phone theft, burglary, harassment), and how to report to police. Knowledge and awareness prevent 90% of incidents."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The UK is statistically safer than many other developed countries (13 violent crimes per 100,000 people vs 40+ in the US). However, petty crime (phone theft, burglary, bag snatching) happens frequently in university towns and cities. Most crimes against students are preventable through awareness: don't flash expensive phones, vary your routes, lock doors, and stay aware of surroundings. If you're a victim, reporting is straightforward (call 101 non-emergency; get a crime reference number for insurance).
 

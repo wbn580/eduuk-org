@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "After receiving offers, universities invite you to open days and offer holder events. These are your chance to meet current students, explore facilities, and confirm whether a university is right for you."
+ogImage: "https://img.ulec.com.cn/edu/australia-go8-sydney-university-quadrangle-2026-1200x800.jpg"
 ---
+
+<!-- R2_IMAGE: australia-go8-sydney-university-quadrangle -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/australia-go8-sydney-university-quadrangle-2026-1200x800.jpg"
+    alt="悉尼大学方庭，澳洲八大代表性校园建筑"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/australia-go8-sydney-university-quadrangle-2026-1200x800.jpg",
+  "name": "悉尼大学方庭，澳洲八大代表性校园建筑",
+  "description": "悉尼大学方庭，澳洲八大代表性校园建筑 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Once you've received university offers, most universities invite you to attend an open day or offer holder event. These events, typically held in March–May (after offers are released but before you confirm your firm choice in June), are opportunities to visit campus, meet academic staff and current students, explore facilities, and assess whether the university suits you. For international students, visiting the UK during offer holder events is particularly valuable, as it's often the first time you'll see your potential university in person.
 

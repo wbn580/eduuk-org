@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "The Russell Group is a formal consortium of 24 UK universities committed to research excellence and high academic standards. Discover what membership means, how these universities compare, and where they excel globally."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The Russell Group is a formal membership organization comprising 24 of Britain's leading research-intensive universities. Collectively, they conduct about two-thirds of all UK research and receive the vast majority of UK research funding, making them a powerful force in global higher education. For international students, understanding what Russell Group membership entails—and critically, what it doesn't—helps navigate university choice sensibly.
 

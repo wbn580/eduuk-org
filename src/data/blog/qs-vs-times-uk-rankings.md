@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "Multiple ranking systems (QS, THE, Guardian, ARWU) assess UK universities differently. Understand their methodologies, weightings, and biases to interpret rankings meaningfully when choosing universities."
+ogImage: "https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg"
 ---
+
+<!-- R2_IMAGE: university-of-glasgow-gilbert-scott -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg"
+    alt="格拉斯哥大学建筑 - 英国格拉斯哥地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg",
+  "name": "格拉斯哥大学建筑 - 英国格拉斯哥地标",
+  "description": "格拉斯哥大学建筑 - 英国格拉斯哥地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 University rankings are published by multiple organizations annually, each using different methodologies and weightings. QS World University Rankings and Times Higher Education World University Rankings are the most cited globally; other systems (Guardian, ARWU, HESA) offer alternative perspectives. For international students evaluating universities, understanding how rankings differ—and their limitations—prevents over-relying on a single metric that may not align with your priorities.
 

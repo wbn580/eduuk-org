@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Admin"]
 description: "Before you leave the UK for good (end of studies), close bank accounts, settle bills, end subscriptions, and manage your visa departure. Critical steps avoid debt and complications."
+ogImage: "https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp"
 ---
+
+<!-- R2_IMAGE: university-campus-education-student -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp"
+    alt="英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp",
+  "name": "英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比",
+  "description": "英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比 — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The day you finish university is emotional, but don't skip admin. Before leaving the UK, close your bank account, settle utility bills and tax records, cancel subscriptions, sell or ship belongings, and update your visa status. Missing these steps can result in debt collection letters, tax penalties, or visa complications if you return. Most students leave in a rush; spending 2–3 weeks on logistics saves months of stress later.
 

@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Money"]
 description: "Oyster for London buses and tube; Railcard for train travel discounts; combined savings of £500–£1,500/year if you travel frequently."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Transport is your second-largest expense after accommodation (average £50–£150/month). Londoners save with Oyster cards (£1.75 per tube/bus journey vs £2.80 cash). Non-London students should buy a 16-25 or 26-30 Railcard for 30% off train tickets. Bus travel across the UK often costs £1–£3, making buses cheaper than trains for short distances.
 

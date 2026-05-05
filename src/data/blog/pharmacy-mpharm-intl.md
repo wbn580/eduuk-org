@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Courses", "Universities"]
 description: "Navigate UK pharmacy degree entry for internationals. Understand MPharm entry requirements, GPhC accreditation, placements, and practitioner registration."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Pharmacy is an attractive healthcare career for international students: shorter than medicine (4 years vs. 5), more accessible entry (grades AAB acceptable at some schools vs. A*AA for medicine), and strong global job market demand. Yet UK pharmacy is heavily regulated, visa sponsorship post-graduation is challenging, and international students face geographic restrictions on placement years. Understanding these constraints upfront is essential.
 
