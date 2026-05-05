@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "Your UCAS reference is a confidential letter from your school submitted directly to universities. Understand what it contains, how admissions tutors evaluate it, and how to position yourself for the strongest possible reference."
+ogImage: "https://img.ulec.com.cn/edu/school-reference-ucas-universities-1777970289.webp"
 ---
+
+<!-- R2_IMAGE: school-reference-ucas-universities -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/school-reference-ucas-universities-1777970289.webp"
+    alt="The School Reference in UCAS: What It Is, What Universities Look For, and How to Earn a Strong One"
+    width="906"
+    height="650"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/school-reference-ucas-universities-1777970289.webp",
+  "name": "The School Reference in UCAS: What It Is, What Universities Look For, and How to Earn a Strong One",
+  "description": "The School Reference in UCAS: What It Is, What Universities Look For, and How to Earn a Strong One — 配图来源：免费商用图库",
+  "width": "906",
+  "height": "650",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The school reference is a formal letter submitted by your secondary school directly to universities via UCAS. It's written by your form tutor, head of year, or, at some schools, a dedicated "UCAS reference writer." You cannot see it before submission; it's entirely confidential. However, you can significantly influence its strength through your actions in school. For international students, understanding what references contain and how to earn a strong one is valuable strategic knowledge.
 
