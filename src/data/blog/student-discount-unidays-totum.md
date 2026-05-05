@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Money"]
 description: "Sign up for free to UNiDAYS and TOTUM to unlock 10–30% discounts on food, tech, fashion, and travel. Save £400–£1,000/year without much effort."
+ogImage: "https://img.ulec.com.cn/edu/十二门徒-2026-2592x3872.jpg"
 ---
+
+<!-- R2_IMAGE: 十二门徒 -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/十二门徒-2026-2592x3872.jpg"
+    alt="大洋路-十二门徒 - 澳大利亚大洋路"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/十二门徒-2026-2592x3872.jpg",
+  "name": "大洋路-十二门徒 - 澳大利亚大洋路",
+  "description": "大洋路-十二门徒 - 澳大利亚大洋路 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Free student discount cards (UNiDAYS and TOTUM) get you 10–30% off supermarkets, restaurants, fashion brands, tech, travel, and entertainment. UNiDAYS is most useful (signed in Jan 2025 by 78% of UK students). TOTUM costs £20/year but pays for itself in 2 weeks if you use it. Together, they save £400–£1,000/year. Sign up within your first week. Many discounts require app activation or a code—it only takes 30 seconds.
 

@@ -13,7 +13,34 @@ tags:
   - Computer Science
   - Postgraduate
 description: Russell Group AI/ML masters programmes in 2026 face record applicant volume. This guide compares deadlines, GPA cut-offs, and conversion-course pathways for non-CS bachelor graduates seeking AI/ML postgraduate study in the UK.
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 A UK Russell Group masters programme in artificial intelligence or machine learning is a one-year postgraduate qualification at a research-intensive university, typically requiring a strong undergraduate background in computer science, mathematics, or statistics. According to UCAS Postgraduate 2025 data, applications to AI/ML masters programmes across the Russell Group's 24 universities increased by 47% in the 2025-26 cycle compared to 2023-24, making AI/ML the fastest-growing postgraduate field in UK higher education. For 2026 entry, deadline windows have narrowed and GPA cutoffs have firmed across the network, particularly for international applicants.
 

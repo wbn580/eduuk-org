@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Visa"]
 description: "How to switch from Graduate Route to Skilled Worker visa: job offer requirements, salary thresholds, sponsorship, and settlement pathway."
+ogImage: "https://img.ulec.com.cn/realestate/real-estate-property-house-1777875444.webp"
 ---
+
+<!-- R2_IMAGE: real-estate-property-house -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/realestate/real-estate-property-house-1777875444.webp"
+    alt="员工持股计划ESS住房贷款详解 – Employee Share Scheme"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/realestate/real-estate-property-house-1777875444.webp",
+  "name": "员工持股计划ESS住房贷款详解 – Employee Share Scheme",
+  "description": "员工持股计划ESS住房贷款详解 – Employee Share Scheme — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 After your Graduate Route (Post-Study Work) ends or during it, you can apply for a **Skilled Worker visa** if your employer is a sponsor and you meet salary and role requirements. The Skilled Worker visa is the primary pathway to long-term settlement in the UK: after 5 years on Skilled Worker visas, you can apply for Indefinite Leave to Remain (ILR) and eventual UK citizenship.
 

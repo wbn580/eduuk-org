@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "Your UCAS personal statement is a 500-word opportunity to demonstrate why you're passionate about your subject and why universities should admit you. Learn structure, tone, and common mistakes that derail strong applicants."
+ogImage: "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
 ---
+
+<!-- R2_IMAGE: visa-immigration-passport -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
+    alt="维多利亚州888A – 墨尔本投资移民"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp",
+  "name": "维多利亚州888A – 墨尔本投资移民",
+  "description": "维多利亚州888A – 墨尔本投资移民 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The UCAS personal statement is your voice in an application file otherwise consisting of grades and references. You have exactly 4,000 characters (approximately 500 words) to convince 24 universities simultaneously that you're genuinely interested in your chosen subject, intellectually curious, and capable of university-level study. For international students unfamiliar with UK admissions, the personal statement can feel daunting; understanding its purpose and structure removes much of the anxiety.
 

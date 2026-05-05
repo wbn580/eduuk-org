@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Visa"]
 description: "Which countries require TB screening, how to book a test, how long results take, and what to do if your test is positive."
+ogImage: "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
 ---
+
+<!-- R2_IMAGE: visa-immigration-passport -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
+    alt="维多利亚州888A – 墨尔本投资移民"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp",
+  "name": "维多利亚州888A – 墨尔本投资移民",
+  "description": "维多利亚州888A – 墨尔本投资移民 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 If you are from a country with high tuberculosis (TB) prevalence, you must undergo TB screening as part of your Student Route visa application. You cannot apply for your visa without proof of a TB test. UKVI uses TB prevalence lists that are updated annually; check gov.uk to see if your country is on the list.
 

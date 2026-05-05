@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Visa"]
 description: "Student visa for courses under 6 months, eligibility criteria, lower costs, financial requirements, and processing for short-course enrollments."
+ogImage: "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
 ---
+
+<!-- R2_IMAGE: visa-immigration-passport -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
+    alt="维多利亚州888A – 墨尔本投资移民"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp",
+  "name": "维多利亚州888A – 墨尔本投资移民",
+  "description": "维多利亚州888A – 墨尔本投资移民 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 If you are enrolling on a short course (less than six months), you may be eligible for a **short-term Student visa**, which is cheaper and faster than the standard Student Route. However, the short-term visa has specific restrictions: you cannot work, extend your stay, or switch to other visa categories. It is designed for intensive, time-limited programmes only.
 
