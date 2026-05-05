@@ -13,7 +13,34 @@ tags:
   - £38,700 threshold
   - Employer Sponsorship
   - Visa Conversion
+ogImage: "https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp"
 ---
+
+<!-- R2_IMAGE: university-campus-education-student -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp"
+    alt="英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp",
+  "name": "英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比",
+  "description": "英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比 — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The UK Graduate Route is a 2-year (3-year for PhD) post-study work visa that allows international students who've completed an eligible degree at a Home Office-approved institution to work, look for work, or be self-employed in the UK without employer sponsorship. According to the UK Home Office Q1 2026 Immigration Statistics release, approximately 124,000 Graduate Route visas were granted in the year ending December 2025, with conversion to a Skilled Worker visa within the 2-year window remaining the dominant onward path for those seeking to extend their UK stay. The April 2024 increase in the Skilled Worker minimum salary threshold to £38,700 has reshaped this conversion landscape considerably. Two years on, in Q2 2026, we have enough data to see clear sectoral patterns. This piece is a structured look at where the conversions are happening, where they're stalling, and what the timing strategy looks like for current Graduate Route holders.
 

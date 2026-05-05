@@ -13,7 +13,34 @@ tags:
   - Funding
   - "2026"
 description: "UK Postgraduate Loan covers up to £17,750/year but leaves tuition shortfalls for Russell Group institutions. Plan 2 vs. Plan 5 repayment differences; where international students fit in."
+ogImage: "https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg"
 ---
+
+<!-- R2_IMAGE: university-of-glasgow-gilbert-scott -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg"
+    alt="格拉斯哥大学建筑 - 英国格拉斯哥地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg",
+  "name": "格拉斯哥大学建筑 - 英国格拉斯哥地标",
+  "description": "格拉斯哥大学建筑 - 英国格拉斯哥地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 ## Direct answer
 

@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Admin"]
 description: "Swap your international licence for a UK one to drive legally; process takes 3–6 weeks. Learn which countries' licences exchange automatically and what you need."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 You can drive on your home licence for up to 12 months from your visa start date. After that, you need a UK driving licence. The DVLA (Driver and Vehicle Licensing Agency) exchange process takes 3–6 weeks. The licence costs £100–£200 depending on your age and whether you need a theory test (EEA and certain other countries are exempt; some countries require a test). You'll need a National Insurance Number and a UK address.
 

@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Practical"]
 description: "School holidays & bank holidays mean crowds, higher prices, and campus closure times. Plan travel home, work, and accommodation around these 11 dates."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The UK has 11 fixed public holidays (bank holidays) plus school half-terms that affect transport, tourism, and accommodation prices. Universities run on different term dates (usually 2–3 terms per year; Christmas is always Dec 15–Jan 15). During school holidays and half-terms, trains are packed, hotels are expensive, tourist attractions have long queues, and some student accommodation closes. Plan ahead: book transport early and know when your campus closes.
 

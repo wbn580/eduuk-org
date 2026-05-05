@@ -5,7 +5,34 @@ pubDatetime: 2026-05-03T10:22:54Z
 modDatetime: 2026-05-03T13:47:31Z
 description: "2026 guide to UK non-Russell Group universities: QS-ranked institutions outside the RG offering strong value, lower tuition, and solid graduate employment rates"
 tags: ["UK universities", "study UK", "Russell Group", "2026", "university rankings"]
+ogImage: "https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp"
 ---
+
+<!-- R2_IMAGE: university-campus-education-student -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp"
+    alt="数据说话：2026年英国杜伦大学排名、学费与就业全面解读"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp",
+  "name": "数据说话：2026年英国杜伦大学排名、学费与就业全面解读",
+  "description": "数据说话：2026年英国杜伦大学排名、学费与就业全面解读 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The Russell Group comprises 24 UK research-intensive universities, but it is not a formal quality benchmark—several universities outside the group rank highly in QS and subject-specific rankings. For international students focused on tuition costs and career outcomes, non-Russell Group institutions often offer strong programmes at lower fee levels.
 

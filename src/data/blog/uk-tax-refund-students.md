@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Money"]
 description: "If you worked part-time and earned below £12,570/year, you likely overpaid National Insurance. Learn how to claim a refund (usually £150–£400)."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 If you worked part-time while studying and earned below £12,570/year, you almost certainly overpaid National Insurance (8% of wages above £175/week). You can reclaim this refund in January–February after the tax year ends (5 April). The process takes 15 minutes and yields £150–£400 for most student workers. Many students don't claim because they don't know they can. Reclaiming is free and legal.
 
