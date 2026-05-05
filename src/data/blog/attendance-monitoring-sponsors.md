@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Visa"]
 description: "How UK institutions monitor Student Route visa holder attendance and academic progress, reporting requirements to UKVI, and consequences of non-engagement."
+ogImage: "https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp"
 ---
+
+<!-- R2_IMAGE: university-campus-education-student -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp"
+    alt="英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp",
+  "name": "英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比",
+  "description": "英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比 — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Your university has a legal duty to monitor your attendance and academic engagement while you are on a Student Route visa. If you miss too many classes, fall behind in your studies, or abandon your course without informing your institution, your university must report you to UK Visas and Immigration (UKVI). Non-compliance with visa conditions can result in visa cancellation, deportation, and bans from future UK visas.
 

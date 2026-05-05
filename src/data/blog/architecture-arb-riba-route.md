@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Courses", "Universities"]
 description: "Understand UK architecture education and professional registration. Compare ARB/RIBA-accredited degrees, Part 1/2/3 qualifications, and pathways to Chartered Architect status."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Architecture in the UK is a seven-year pathway: three years for a degree (BA or BSc Hons), two years for a specialist Master's or RIBA Part 2 qualification, and two years of practical experience (internship/apprenticeship) before registration as a Chartered Architect. For international students, this lengthy commitment demands careful evaluation of costs, visa implications, and genuine career commitment.
 

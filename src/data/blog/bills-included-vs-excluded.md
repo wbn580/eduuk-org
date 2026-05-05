@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation", "Finance"]
 description: "What bills mean in UK rentals: gas, electricity, water, council tax, TV licence. Compare all-in rent vs. separate bills and budget accordingly."
+ogImage: "https://img.ulec.com.cn/realestate/real-estate-property-house-1777879816.webp"
 ---
+
+<!-- R2_IMAGE: real-estate-property-house -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/realestate/real-estate-property-house-1777879816.webp"
+    alt="非英国居民如何贷款？海外人士申请英国房贷无需收入证明"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/realestate/real-estate-property-house-1777879816.webp",
+  "name": "非英国居民如何贷款？海外人士申请英国房贷无需收入证明",
+  "description": "非英国居民如何贷款？海外人士申请英国房贷无需收入证明 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 When renting in the UK, "bills included" or "bills excluded" dramatically affects your true housing cost. Many international students underestimate the cost of utilities, council tax, and internet, which can add £20–£50/week to rent. Understanding what's included and calculating your real budget prevents financial surprises.
 

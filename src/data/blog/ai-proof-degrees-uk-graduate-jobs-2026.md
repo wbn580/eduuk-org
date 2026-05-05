@@ -10,7 +10,34 @@ tags:
   - Technology
   - Choosing a Course
 description: "The World Economic Forum predicts 92 million jobs will be displaced by AI by 2030—but 170 million new ones will emerge. If you're planning to study in the UK, here are the degree areas most resilient to automation, backed by UK-specific graduate outcome data."
+ogImage: "https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp"
 ---
+
+<!-- R2_IMAGE: university-campus-education-student -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp"
+    alt="数据说话：2026年英国杜伦大学排名、学费与就业全面解读"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp",
+  "name": "数据说话：2026年英国杜伦大学排名、学费与就业全面解读",
+  "description": "数据说话：2026年英国杜伦大学排名、学费与就业全面解读 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The question has shifted. It is no longer "will AI affect my career?" but "which careers will AI reshape, and how do I position myself on the right side of that change?" For prospective international students considering the UK, this question applies with particular force: you are making a substantial financial investment in a degree that needs to deliver returns over a 40-year career, not just a first job.
 

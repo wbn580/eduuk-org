@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Visa"]
 description: "ATAS requirement for postgraduate STEM students, how to apply, processing timelines, and exemptions for science and engineering PhD and master's programmes."
+ogImage: "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
 ---
+
+<!-- R2_IMAGE: visa-immigration-passport -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
+    alt="维多利亚州888A – 墨尔本投资移民"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp",
+  "name": "维多利亚州888A – 墨尔本投资移民",
+  "description": "维多利亚州888A – 墨尔本投资移民 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The Academic Technology Approval Scheme (ATAS) is a security clearance required for international postgraduate students enrolling on certain science, technology, engineering, and mathematics (STEM) programmes. If your course is ATAS-restricted, you cannot proceed with your Student Route visa application until you have obtained an ATAS certificate. Processing typically takes 4–8 weeks.
 

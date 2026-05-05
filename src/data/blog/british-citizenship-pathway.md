@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Visa"]
 description: "How to apply for British citizenship from ILR status: residency requirements, Life in the UK test, oath of allegiance, and dual nationality considerations."
+ogImage: "https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp"
 ---
+
+<!-- R2_IMAGE: university-campus-education-student -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp"
+    alt="英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-campus-education-student-1777879385.webp",
+  "name": "英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比",
+  "description": "英国留学中介怎么选？2026年本科硕士申请费用、专业、签证全维度对比 — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 **British citizenship** is the final step in your immigration journey. After holding Indefinite Leave to Remain (ILR) for one year, you can apply for citizenship and become a British national. You receive a British passport, full political and civil rights (including voting), and can never be deported. This is the pinnacle of UK settlement for international migrants.
 
