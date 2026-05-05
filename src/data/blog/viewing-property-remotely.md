@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "Virtual property tours, video viewings, and remote inspections for international students. Red flags, safety checks, and securing a property you haven't seen in person."
+ogImage: "https://img.ulec.com.cn/realestate/real-estate-property-house-1777879816.webp"
 ---
+
+<!-- R2_IMAGE: real-estate-property-house -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/realestate/real-estate-property-house-1777879816.webp"
+    alt="非英国居民如何贷款？海外人士申请英国房贷无需收入证明"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/realestate/real-estate-property-house-1777879816.webp",
+  "name": "非英国居民如何贷款？海外人士申请英国房贷无需收入证明",
+  "description": "非英国居民如何贷款？海外人士申请英国房贷无需收入证明 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Most international students view UK accommodation remotely via video call, photos, or virtual tours before arrival. While this is standard and manageable, remote viewing carries risks: scams, misleading images, and undisclosed issues. A structured checklist and verification process reduce these risks significantly.
 

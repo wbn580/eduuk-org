@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Practical"]
 description: "UK seasons: winter hits 0°C (dress in layers), spring is unpredictable rain, summer is mild 18–22°C, autumn is windy. What to buy, when, and where on a budget."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 UK weather is cool and damp year-round; expect rain 1 in every 3 days. Winter (Nov–Feb) drops to 0°C; summer peaks at 18–22°C (rarely above 25°C). You'll need warm, waterproof layers, not a heavy parka. Budget £100–150 on a first-arrival shopping trip (waterproof jacket, warm layers, sturdy shoes); then buy seasonal items as needed. Many students underestimate the cold and wetness; arrive prepared.
 

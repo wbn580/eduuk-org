@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Visa"]
 description: "Student visa work rights: 20-hour term-time limit, unlimited holiday work, permitted jobs, restrictions, and consequences of breaching conditions."
+ogImage: "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
 ---
+
+<!-- R2_IMAGE: visa-immigration-passport -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp"
+    alt="维多利亚州888A – 墨尔本投资移民"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/visa-immigration-passport-1777875332.webp",
+  "name": "维多利亚州888A – 墨尔本投资移民",
+  "description": "维多利亚州888A – 墨尔本投资移民 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 International students on the Student Route can work up to 20 hours per week during term time and unlimited hours during official university holidays and breaks. This is a key benefit of the Student Route, allowing you to earn money and gain UK work experience without needing separate work sponsorship. However, the 20-hour limit is a visa condition—breaching it can result in visa cancellation.
 

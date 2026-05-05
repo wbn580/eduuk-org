@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "UK university scholarships for international students are competitive but available. Understand different scholarship types, eligibility requirements, application processes, and realistic expectations for funding."
+ogImage: "https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg"
 ---
+
+<!-- R2_IMAGE: university-of-glasgow-gilbert-scott -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg"
+    alt="格拉斯哥大学建筑 - 英国格拉斯哥地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg",
+  "name": "格拉斯哥大学建筑 - 英国格拉斯哥地标",
+  "description": "格拉斯哥大学建筑 - 英国格拉斯哥地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 UK university scholarships for international students are limited but not nonexistent. Most international students self-fund or seek external sponsorship from their home countries; however, UK universities do offer merit-based and need-based awards covering partial to full tuition. Understanding what scholarships exist, how competitive they are, and where to find them is essential if funding is a constraint on your UK study.
 
