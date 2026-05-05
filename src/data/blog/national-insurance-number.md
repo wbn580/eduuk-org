@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Admin"]
 description: "What a NIN is, why you need it for work and tax, how to apply by post or video call, and the 2–4 week wait—don't delay your job search."
+ogImage: "https://img.ulec.com.cn/edu/repayment-calculator-1777875783.webp"
 ---
+
+<!-- R2_IMAGE: repayment-calculator -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/repayment-calculator-1777875783.webp"
+    alt="还款额计算器 (Repayment Calculator) – 找到最佳房贷还款策略"
+    width="1200"
+    height="706"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/repayment-calculator-1777875783.webp",
+  "name": "还款额计算器 (Repayment Calculator) – 找到最佳房贷还款策略",
+  "description": "还款额计算器 (Repayment Calculator) – 找到最佳房贷还款策略 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "706",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Your National Insurance Number (NIN) is a 9-character code (like AB12 34 56 C) that links your earnings, taxes, pensions, and benefits. You'll need it to work legally in the UK, claim Universal Credit, access council benefits, or pay taxes on side income. Apply immediately—the process takes 2–4 weeks and you can't work until it arrives.
 

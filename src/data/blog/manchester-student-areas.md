@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "Manchester student guide: Fallowfield, Rusholme, Deansgate, and budget alternatives. Rent, nightlife, universities, and transport links ranked."
+ogImage: "https://img.ulec.com.cn/edu/manchester-town-hall-albert-square-2026-4000x3000.jpg"
 ---
+
+<!-- R2_IMAGE: manchester-town-hall-albert-square -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/manchester-town-hall-albert-square-2026-4000x3000.jpg"
+    alt="曼彻斯特市政厅 - 英国曼彻斯特地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/manchester-town-hall-albert-square-2026-4000x3000.jpg",
+  "name": "曼彻斯特市政厅 - 英国曼彻斯特地标",
+  "description": "曼彻斯特市政厅 - 英国曼彻斯特地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Manchester is the UK's most affordable major student city after Birmingham and Leeds. Weekly rent averages £80–£140 (vs. £140–£250 in London), and the University of Manchester, Manchester Metropolitan, and Salford University dominate the housing market. Three neighborhoods—Fallowfield, Rusholme, and Deansgate—host 60% of students, but alternatives offer even cheaper options.
 

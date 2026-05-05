@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "Both universities rank globally for economics, but LSE's London location and social science focus contrast with Warwick's campus-based, research-intensive environment. Understand the curricular and career implications of each."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 LSE and Warwick are both world-leading in economics, yet they attract different student profiles and deliver distinct educational experiences. LSE's social-science focus and central London location shape a globally networked, finance-oriented culture; Warwick's campus-based model emphasizes research depth and flexibility within a broader university environment. Neither is objectively superior; each suits different aspirations.
 

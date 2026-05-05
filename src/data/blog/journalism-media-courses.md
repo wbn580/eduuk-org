@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Courses"]
 description: "Explore UK journalism and media programmes. Compare three-year BA, postgraduate MA, and practical boot camp options. Understand industry entry and precarious early-career employment."
+ogImage: "https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp"
 ---
+
+<!-- R2_IMAGE: university-campus-education-student -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp"
+    alt="数据说话：2026年英国杜伦大学排名、学费与就业全面解读"
+    width="1200"
+    height="799"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-campus-education-student-1777879396.webp",
+  "name": "数据说话：2026年英国杜伦大学排名、学费与就业全面解读",
+  "description": "数据说话：2026年英国杜伦大学排名、学费与就业全面解读 — 配图来源：免费商用图库",
+  "width": "1200",
+  "height": "799",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Journalism and media in the UK is experiencing structural decline: national newspaper circulation has dropped 40% in a decade, broadcast outlets are consolidating, and digital media competition is intense. Yet journalism education remains popular, and the UK offers world-leading programmes. Prospective students must understand realistic employment prospects, rapid industry change, and the importance of building a portfolio during study.
 

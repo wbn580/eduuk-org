@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "Both rank in the global top 30 and are leading Russell Group research hubs. Manchester is England's industrial-heritage powerhouse; Edinburgh leverages Scottish traditions and global networks. Explore their research strengths and campus cultures."
+ogImage: "https://img.ulec.com.cn/edu/edinburgh-castle-hill-scotland-2026-5022x1671.jpg"
 ---
+
+<!-- R2_IMAGE: edinburgh-castle-hill-scotland -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/edinburgh-castle-hill-scotland-2026-5022x1671.jpg"
+    alt="爱丁堡城堡 - 英国爱丁堡地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/edinburgh-castle-hill-scotland-2026-5022x1671.jpg",
+  "name": "爱丁堡城堡 - 英国爱丁堡地标",
+  "description": "爱丁堡城堡 - 英国爱丁堡地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Manchester and Edinburgh are two of the UK's most research-intensive universities, each with distinctive historical trajectories and contemporary strengths. Manchester rose from Manchester's industrial engineering heritage; Edinburgh is rooted in Scottish Enlightenment traditions. Both attract strong international cohorts and compete fiercely for research funding. Understanding their research clusters and institutional cultures helps you position yourself strategically.
 

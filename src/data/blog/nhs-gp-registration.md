@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Health"]
 description: "Why you must register with a GP, how to find one near your university, and what to expect at your first appointment—from vaccinations to mental health screening."
+ogImage: "https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg"
 ---
+
+<!-- R2_IMAGE: university-of-glasgow-gilbert-scott -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg"
+    alt="格拉斯哥大学建筑 - 英国格拉斯哥地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/university-of-glasgow-gilbert-scott-2026-5184x3456.jpg",
+  "name": "格拉斯哥大学建筑 - 英国格拉斯哥地标",
+  "description": "格拉斯哥大学建筑 - 英国格拉斯哥地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Your GP (General Practitioner) is your entry point to free NHS healthcare. Registering takes 10 minutes and is free. Without a GP, you're locked out of prescriptions, hospital referrals, and emergency care coordination. Register within your first two weeks to avoid delays if you fall ill.
 

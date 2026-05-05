@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Courses"]
 description: "Understand UK law degree options. Compare LLB (honours), JD (postgraduate), and SRA/BSB practising certificate pathways for barristers and solicitors."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 UK law is highly regulated and split between two distinct practises: solicitors (office-based, client-facing legal advice and transactions) and barristers (courtroom advocates, also increasingly office-based in modern practice). Entry paths, qualifications, and career trajectories differ markedly from the USA's unified JD model. For international students, understanding SRA (Solicitors Regulation Authority) and BSB (Bar Standards Board) requirements is essential.
 

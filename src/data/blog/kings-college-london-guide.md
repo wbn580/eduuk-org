@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Universities"]
 description: "King's College London is a historic G5 institution excelling in law, medicine, and humanities. This guide covers its unique Thames-side position, competitive admissions, and strong postgraduate research environment."
+ogImage: "https://img.ulec.com.cn/edu/london-uk-university-campus-education-student-1777879403.webp"
 ---
+
+<!-- R2_IMAGE: london-uk-university-campus-education-student -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/london-uk-university-campus-education-student-1777879403.webp"
+    alt="英国UCL伦敦大学学院：本科 vs 硕士 vs 预科，三条路径全比较"
+    width="867"
+    height="650"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/london-uk-university-campus-education-student-1777879403.webp",
+  "name": "英国UCL伦敦大学学院：本科 vs 硕士 vs 预科，三条路径全比较",
+  "description": "英国UCL伦敦大学学院：本科 vs 硕士 vs 预科，三条路径全比较 — 配图来源：免费商用图库",
+  "width": "867",
+  "height": "650",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 King's College London (KCL) is one of Britain's oldest and most prestigious universities, founded in 1829 and located across multiple Thames-side campuses in central London. As a G5 member, it ranks in the global top 35 across most disciplines and dominates UK and European higher education in law, medicine, and humanities. For international students, KCL offers the prestige of Oxbridge adjacency combined with central London location and diverse programme offerings.
 

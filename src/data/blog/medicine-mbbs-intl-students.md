@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Courses", "Universities"]
 description: "Navigate UK medical school entry for international students. Understand A-level requirements, UCAT/GAMSAT exams, fees, clinical training, and GMC registration pathways."
+ogImage: "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
 ---
+
+<!-- R2_IMAGE: tower-bridge-london-panoramic -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg"
+    alt="伦敦塔桥全景 - 英国伦敦地标"
+    width="1200"
+    height="800"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/tower-bridge-london-panoramic-2026-2187x3288.jpg",
+  "name": "伦敦塔桥全景 - 英国伦敦地标",
+  "description": "伦敦塔桥全景 - 英国伦敦地标 — 配图来源：R2自有图库",
+  "width": "1200",
+  "height": "800",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Medicine in the UK is highly selective, heavily regulated, and expensive for international students. Yet it remains an extraordinarily appealing pathway: UK medical degrees are globally respected, NHS training is world-class, and Doctors' salaries are secure. International students must understand realistic entry requirements, true costs, and regulatory constraints before committing.
 
