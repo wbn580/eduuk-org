@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "Compare major PBSA providers: IQ, Unite, Sanctuary, and Fresh. Rent, amenities, deposit schemes, and contract terms explained for international students."
+ogImage: "https://img.ulec.com.cn/edu/unite-sanctuary-pbsa-providers-1777968648.webp"
 ---
+
+<!-- R2_IMAGE: unite-sanctuary-pbsa-providers -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/unite-sanctuary-pbsa-providers-1777968648.webp"
+    alt="IQ vs Unite vs Sanctuary: PBSA Providers Compared"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/unite-sanctuary-pbsa-providers-1777968648.webp",
+  "name": "IQ vs Unite vs Sanctuary: PBSA Providers Compared",
+  "description": "IQ vs Unite vs Sanctuary: PBSA Providers Compared — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Purpose-Built Student Accommodation (PBSA) providers manage purpose-designed halls across the UK, offering alternatives to university housing and traditional private lets. IQ, Unite, Sanctuary, and Fresh differ in pricing, locations, management quality, and contract flexibility. Understanding these differences helps you secure reliable, well-managed housing.
 
