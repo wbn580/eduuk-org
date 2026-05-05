@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Life", "Safety"]
 description: "999 for life-threatening emergencies; 101 for police non-emergency; 111 for health advice. Know which to call and what to expect when you do."
+ogImage: "https://img.ulec.com.cn/edu/emergency-numbers-emergency-lines-1777968601.webp"
 ---
+
+<!-- R2_IMAGE: emergency-numbers-emergency-lines -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/emergency-numbers-emergency-lines-1777968601.webp"
+    alt="Emergency Numbers, Non-Emergency Lines, and When to Call What"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/emergency-numbers-emergency-lines-1777968601.webp",
+  "name": "Emergency Numbers, Non-Emergency Lines, and When to Call What",
+  "description": "Emergency Numbers, Non-Emergency Lines, and When to Call What — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 The UK has clear emergency protocols. **999** is for immediate life threats (unconsciousness, severe bleeding, chest pain, violent crime in progress). **101** is for non-emergency police (theft, fraud, noise complaints). **111** is for medical advice (not urgent; answers within 2–4 hours). **NHS 999 only calls** cost nothing. Most international students don't know these distinctions and call the wrong number, which delays help. Memorize these numbers before you need them.
 
