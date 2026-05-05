@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "How to escalate disputes: repair requests, deposit deductions, unauthorized evictions. Documentation, timelines, and when to involve authorities."
+ogImage: "https://img.ulec.com.cn/edu/handling-rental-disputes-landlords-1777968627.webp"
 ---
+
+<!-- R2_IMAGE: handling-rental-disputes-landlords -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/handling-rental-disputes-landlords-1777968627.webp"
+    alt="Handling Rental Disputes with Landlords: Complaints, Repairs, and Legal Rights"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/handling-rental-disputes-landlords-1777968627.webp",
+  "name": "Handling Rental Disputes with Landlords: Complaints, Repairs, and Legal Rights",
+  "description": "Handling Rental Disputes with Landlords: Complaints, Repairs, and Legal Rights — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Rental disputes—unrepaired boilers, withheld deposits, unfair damage charges, unfair evictions—are common for renters. Most disputes are resolvable through calm communication and proper documentation. However, knowing your legal rights and when to escalate to authorities protects you from landlord abuse and ensures fair outcomes.
 
