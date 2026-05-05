@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "Short-let (weeks/months) vs. long-let (12 months): costs, flexibility, tenant rights, and which suits your study timeline."
+ogImage: "https://img.ulec.com.cn/edu/short-long-understanding-lease-1777968682.webp"
 ---
+
+<!-- R2_IMAGE: short-long-understanding-lease -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/short-long-understanding-lease-1777968682.webp"
+    alt="Short-Let vs. Long-Let: Understanding Lease Lengths for Students"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/short-long-understanding-lease-1777968682.webp",
+  "name": "Short-Let vs. Long-Let: Understanding Lease Lengths for Students",
+  "description": "Short-Let vs. Long-Let: Understanding Lease Lengths for Students — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 UK rental properties are offered as either short-lets (flexible, weeks to a few months) or long-lets (typically 12-month Assured Shorthold Tenancies). For students, the distinction matters: short-lets cost more, offer flexibility, and provide fewer legal protections; long-lets are cheaper, stable, but less flexible. Understanding both helps you choose the right contract.
 
