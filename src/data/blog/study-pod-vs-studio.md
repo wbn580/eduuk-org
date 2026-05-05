@@ -7,7 +7,34 @@ featured: false
 draft: false
 tags: ["Accommodation"]
 description: "Study pods (micro-studios) vs. studio apartments: size, cost, and whether compact living is worth the savings for international students."
+ogImage: "https://img.ulec.com.cn/edu/study-studio-apartment-costs-1777968692.webp"
 ---
+
+<!-- R2_IMAGE: study-studio-apartment-costs -->
+<figure class="article-image">
+  <img
+    src="https://img.ulec.com.cn/edu/study-studio-apartment-costs-1777968692.webp"
+    alt="Study Pod vs. Studio Apartment: Costs, Space, and What You're Getting"
+    width="940"
+    height="627"
+    loading="lazy"
+    decoding="async"
+    sizes="(max-width: 768px) 100vw, 750px"
+  />
+</figure>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://img.ulec.com.cn/edu/study-studio-apartment-costs-1777968692.webp",
+  "name": "Study Pod vs. Studio Apartment: Costs, Space, and What You're Getting",
+  "description": "Study Pod vs. Studio Apartment: Costs, Space, and What You're Getting — 配图来源：免费商用图库",
+  "width": "940",
+  "height": "627",
+  "license": "https://creativecommons.org/licenses/publicdomain/",
+  "acquireLicensePage": "https://img.ulec.com.cn/about"
+}
+</script>
 
 Study pods are the latest accommodation innovation for budget-conscious students: compact micro-studios (usually 15–25 m²) with integrated bed, desk, and bathroom. They cost £120–£180/week, undercutting traditional studios (£150–£250/week) but requiring tolerance for minimal space. Understanding what you're actually getting helps you decide if a pod suits your lifestyle.
 
